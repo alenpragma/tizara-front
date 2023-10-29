@@ -2,7 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
-*::selection{
+html {
+  overflow-x: hidden;
+}
+
+*::selection {
   background-color: #07f9c8;
   color: #fff;
 }

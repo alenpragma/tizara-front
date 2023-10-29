@@ -26,10 +26,13 @@ const Navbar = () => {
   ];
   //   navbar responsive functionality
   let [show, setShow] = useState(true);
+  let [navToggle,setNavToggle] = useState(false)
 
   useEffect(() => {
     let scrollWidt = (e) => {
       window.innerWidth < 1024 ? setShow(true) : setShow(false);
+      window.innerWidth < 1024 ? setNavToggle(true) : setNavToggle(false);
+
     };
     scrollWidt();
     window.addEventListener("resize", scrollWidt());
@@ -37,13 +40,14 @@ const Navbar = () => {
 
   return (
     <>
-      <div className="max-w-container mx-auto px-[10px] py-[20px]">
+      <div className="max-w-container relative z-10 mx-auto px-[10px] py-[20px]">
         <div className="flex justify-between items-center ">
           {/* Logo starts */}
           <h2 className="font-bold text-[30px] md:text-[30px]  lg:text-[40px]">
             Tizara<span className="text-primary-green">.</span>
           </h2>
           {/* logo Ends */}
+          
           {!show && (
             <div className="flex justify-center gap-y-5 lg:gap-y-0 lg:justify-between flex-col lg:flex-row  fixed lg:static h-[100vh] top-0 left-0 lg:h-0  w-[100%] lg:w-[60%] items-center bg-primary-bg">
               <FaTimes
@@ -54,9 +58,10 @@ const Navbar = () => {
                 Tizara<span className="text-primary-green">.</span>
               </h2>
               <ul className={`m-0 p-0 flex gap-x-10 flex-col lg:flex-row`}>
+                
                 {navData.map((item) => (
                   <li
-                    onClick={() => setShow((prev) => !prev)}
+                    onClick={() => window.innerWidth < 1024 && setShow(true)}
                     className="text-center lg:text-left"
                   >
                     <Link
@@ -72,7 +77,7 @@ const Navbar = () => {
               </ul>
 
               <div className="">
-                <div         onClick={() => setShow((prev) => !prev)} className="bg-border-black p-[2px] relative flex justify-center items-center overflow-hidden">
+                <div         onClick={() => window.innerWidth < 1024 && setShow(true)} className="bg-border-black p-[2px] relative flex justify-center items-center overflow-hidden">
                   <div className="button-animation absolute w-[300px] h-[20px] z-1 opacity-70 bg-primary-green  shadow-2xl  "></div>
 
                   <Link href="/pages/contact" className="relative z-3">

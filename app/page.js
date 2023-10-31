@@ -1,20 +1,27 @@
 import Link from "next/link";
 import React from "react";
 import { CiLocationArrow1 } from "react-icons/ci";
+import OurPartnerSlider from "./_components/_sliders/_our-pertner-slider/OurPartnerSlider";
 
 const page = () => {
   return (
     <>
       <div className=" md:py-[80px] relative">
         <div
-          style={{
-            backgroundImage: 'url("https://i.ibb.co/KsNfMVG/Group-1-1-1.png")',
-            backgroundRepeat: "no-repeat",
-            backgroundPosition: "center",
-            backgroundSize: "cover",
-          }}
-          className="homeBanner "
+          // style={{
+          //   backgroundImage: 'url("https://i.ibb.co/KsNfMVG/Group-1-1-1.png")',
+          //   backgroundRepeat: "no-repeat",
+          //   backgroundPosition: "center",
+          //   backgroundSize: "cover",
+          // }}
+          className="homeBanner w-full relative"
         >
+          <img
+            src="https://i.ibb.co/KsNfMVG/Group-1-1-1.png"
+            className="absolute left-0  top-[100px] z-[-1] md:top-0  w-full h-auto"
+            alt=""
+          />
+
           {/* hero section start */}
           <div className="max-w-container mx-auto px-[10px]  flex flex-col gap-y-[80px] md:gap-y-0 md:flex-row justify-between py-[100px] md:py-[150px] lg:py-[250px]">
             {/* left col start */}
@@ -98,47 +105,202 @@ const page = () => {
           {/* be a pioneer section end */}
           {/* transform your section life start */}
           <div className="max-w-container px-[10px] mx-auto mb-10">
-            <div className="flex justify-between">
+            <div className="flex flex-col gap-y-5 md:gap-y-0 md:flex-row justify-between">
               {/* card one start */}
               <div className="w-[100%] md:w-[32%] group">
                 <Link href="/">
-                
-                 <img src="https://tbe.io/_next/static/media/firstProject.85144066.png" className="w-full h-auto duration-300 rounded-2xl  group-hover:border group-hover:border-primary-green" alt="" />
+                  <img
+                    src="https://tbe.io/_next/static/media/firstProject.85144066.png"
+                    className="w-full h-auto duration-300 rounded-2xl  group-hover:border group-hover:border-primary-green"
+                    alt=""
+                  />
                 </Link>
-              <h4 className="font-semibold text-[20px] md:text-[30px] mb-3">
-              A New Dawn in Tech & Economy: Welcome to The Blockchain Era
-              </h4>
-              <p>Join TBE and become part of a grassroots movement redefining the future. Our groundbreaking platform, state-of-the-art products, and vibrant community are laying the cornerstone of a revolutionary era. Engage with us today.</p>
+                <h4 className="font-semibold text-[20px] md:text-[30px] mb-3">
+                  A New Dawn in Tech & Economy: Welcome to The Blockchain Era
+                </h4>
+                <p>
+                  Join TBE and become part of a grassroots movement redefining
+                  the future. Our groundbreaking platform, state-of-the-art
+                  products, and vibrant community are laying the cornerstone of
+                  a revolutionary era. Engage with us today.
+                </p>
               </div>
               {/* card one end */}
-               {/* card two start */}
-               <div className="w-[100%] md:w-[32%] group">
+              {/* card two start */}
+              <div className="w-[100%] md:w-[32%] group">
+                <div
+                  style={{
+                    backgroundImage:
+                      'url("https://tbe.io/_next/static/media/projectLink.0ccb0138.png")',
+                    backgroundRepeat: "no-repeat",
+                    backgroundPosition: "center",
+                    backgroundSize: "cover",
+                  }}
+                  className="rounded-[15px]  p-5 mb-5 flex justify-between gap-x-3"
+                >
+                  <div className="">
+                    <h4 className="font-semibold text-[18px] md:text-[25px] mb-3">
+                      Transform Your Life
+                    </h4>
+                    <p>
+                      Leap into The Blockchain Era and redefine what's possible,
+                      both for yourself and the world.
+                    </p>
+                  </div>
+                  <div className="">
+                    <Link href="/">
+                      <div className="group w-[40px] md:w-[50px] h-[40px] md:h-[50px] rounded-full border  flex justify-center bg-white items-center duration-300 hover:bg-primary-green ">
+                        <CiLocationArrow1 className="text-[30px] group-hover:text-white text-[#222] duration-300" />
+                      </div>
+                    </Link>
+                  </div>
+                </div>
                 <Link href="/">
-                
-                 <img src="https://tbe.io/_next/static/media/firstProject.85144066.png" className="w-full h-auto duration-300 rounded-2xl  group-hover:border group-hover:border-primary-green" alt="" />
+                  <img
+                    src="	https://tbe.io/_next/static/media/secondProject.7ad7c3bb.png"
+                    className="w-full h-auto duration-300 rounded-2xl  group-hover:border group-hover:border-primary-green"
+                    alt=""
+                  />
                 </Link>
-              <h4 className="font-semibold text-[20px] md:text-[30px] mb-3">
-              A New Dawn in Tech & Economy: Welcome to The Blockchain Era
-              </h4>
-              <p>Join TBE and become part of a grassroots movement redefining the future. Our groundbreaking platform, state-of-the-art products, and vibrant community are laying the cornerstone of a revolutionary era. Engage with us today.</p>
+                <h4 className="font-semibold text-[20px] md:text-[30px] mb-3">
+                  Ignite, Innovate, Ascend: Your Blockchain Journey Begins with
+                  TBE
+                </h4>
+                <p>
+                  Tizara isn't just a service; it's a social revolution. We
+                  furnish you with the tools, the expertise, and the community
+                  you need to excel in this disruptive landscape. Step into your
+                  blockchain future with us and tap into limitless
+                  possibilities.
+                </p>
               </div>
               {/* card two end */}
-               {/* card three start */}
-               <div className="w-[100%] md:w-[32%] group">
+              {/* card three start */}
+              <div className="w-[100%] md:w-[32%] group">
                 <Link href="/">
-                
-                 <img src="https://tbe.io/_next/static/media/firstProject.85144066.png" className="w-full h-auto duration-300 rounded-2xl  group-hover:border group-hover:border-primary-green" alt="" />
+                  <img
+                    src="https://tbe.io/_next/static/media/thirdProject.aff40f14.png"
+                    className="w-full h-auto duration-300 rounded-2xl  group-hover:border group-hover:border-primary-green"
+                    alt=""
+                  />
                 </Link>
-              <h4 className="font-semibold text-[20px] md:text-[30px] mb-3">
-              A New Dawn in Tech & Economy: Welcome to The Blockchain Era
-              </h4>
-              <p>Join TBE and become part of a grassroots movement redefining the future. Our groundbreaking platform, state-of-the-art products, and vibrant community are laying the cornerstone of a revolutionary era. Engage with us today.</p>
+                <h4 className="font-semibold text-[20px] md:text-[30px] mb-3">
+                  Forge Your Success: Pave Your Path with The Tizara
+                </h4>
+                <p>
+                  Tizara simplifies the complex, making blockchain accessible
+                  and fruitful for all. From pioneering products to
+                  comprehensive services, we’ve got your blockchain ambitions
+                  covered. Join TBE today and begin crafting your legacy.
+                </p>
               </div>
               {/* card three end */}
             </div>
           </div>
-
           {/* transform your section life end */}
+          {/* our partner slider start */}
+          <div className="!mt-10 max-w-container px-[10px] mx-auto mb-10">
+            <h3 className="text-[25px] md:text-[40px] gradiant-text mb-5">
+              Our Partners
+            </h3>
+            <OurPartnerSlider />
+          </div>
+          {/* our partner slider end */}
+          {/* Scale New Heights start */}
+          <div className="!mt-[80px] max-w-container px-[10px] mx-auto mb-10">
+            <h3 className="text-[25px] md:text-[40px] gradiant-text">
+              Scale New Heights: Today's Pioneers, Tomorrow's Leaders
+            </h3>
+            <div className="flex items-center gap-x-3">
+              <img
+                src="https://tbe.io/_next/static/media/people.5da9dbdb.png"
+                alt=""
+              />
+
+              <h3 className="text-[20px] md:text-[30px] mt-10">
+                Join <span className="!text-primary-green">3.1K+</span> New
+                Members Today and Start Building Your Digital Empire
+              </h3>
+            </div>
+            <div className="flex flex-col md:flex-row mt-[80px] gap-y-3 md:gap-x-3">
+              <div className="flex flex-col gap-y-3 w-full md:w-[64%]">
+                <div className="p-5 duration-300 hover:translate-y-[-4%] border relative rounded-2xl overflow-hidden hover:border-primary-green">
+                  <img
+                    src="https://tbe.io/_next/static/media/joinersEclipseGreen.6c493366.png"
+                    className="absolute bottom-0 left-0"
+                    alt=""
+                  />
+                  <img
+                    src="https://tbe.io/_next/static/media/ranksIMG.b28eca51.png"
+                    className="md:absolute top-0 right-0"
+                    alt=""
+                  />
+                  <div className="relative w-full md:w-[50%] duration-300  z-3">
+                    <h4 className="font-semibold text-[18px] md:text-[25px] mb-3">
+                      Climb the Ranks: Your Digital Career Awaits
+                    </h4>
+                    <p>
+                      TBE offers you the unique opportunity to climb the ranks
+                      in a dynamic, fast-paced digital career. With various
+                      ranks and milestones, your potential for growth and
+                      development is limitless. Turn your passion for blockchain
+                      into a rewarding career today.
+                    </p>
+                  </div>
+                </div>
+                <div className="p-5 duration-300 hover:translate-y-[-4%] border relative rounded-2xl overflow-hidden hover:border-primary-green">
+                  <img
+                    src="https://tbe.io/_next/static/media/joinersEclipseGreen.6c493366.png"
+                    className="absolute bottom-0 left-0"
+                    alt=""
+                  />
+                  <img
+                    src="https://tbe.io/_next/static/media/chartJoiners.0dd44e9c.png"
+                    className="md:absolute top-0 right-0"
+                    alt=""
+                  />
+                  <div className="relative w-full md:w-[50%] duration-300  z-3">
+                    <h4 className="font-semibold text-[18px] md:text-[25px] mb-3">
+                      Reap the Rewards: The Freedom to Excel
+                    </h4>
+                    <p>
+                      At TBE, we believe in recognizing and rewarding your hard
+                      work. Our comprehensive rewards program ensures that your
+                      contributions don't just benefit the community, they pave
+                      the way for your personal freedom.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div className="flex flex-col gap-y-3 w-full md:w-[34%]">
+                <div className="p-5 duration-300 hover:translate-y-[-4%] border relative rounded-2xl overflow-hidden hover:border-primary-green">
+                  <img
+                    src="https://tbe.io/_next/static/media/joinersEclipseGreen.6c493366.png"
+                    className="absolute bottom-0 left-0"
+                    alt=""
+                  />
+
+                  <div className="relative w-full  duration-300  z-3">
+                    <h4 className="font-semibold text-[18px] md:text-[25px] mb-3">
+                      Reap the Rewards: The Freedom to Excel
+                    </h4>
+                    <p>
+                      At TBE, we believe in recognizing and rewarding your hard
+                      work. Our comprehensive rewards program ensures that your
+                      contributions don't just benefit the community, they pave
+                      the way for your personal freedom.
+                    </p>
+                  </div>
+                  <img
+                    src="https://tbe.io/_next/static/media/userstree.914b181a.png"
+                    className=" w-full h-auto"
+                    alt=""
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+          {/* Scale New Heights end */}
         </div>
       </div>
     </>

@@ -43,9 +43,10 @@ const Navbar = () => {
       <div className="max-w-container relative z-10 mx-auto px-[10px] py-[20px]">
         <div className="flex justify-between items-center ">
           {/* Logo starts */}
-          <h2 className="font-bold text-[30px] md:text-[30px]  lg:text-[40px]">
+          {/* <h2 className="font-bold text-[30px] md:text-[30px]  lg:text-[40px]">
             Tizara<span className="text-primary-green">.</span>
-          </h2>
+          </h2> */}
+          <img src="https://i.postimg.cc/hjQBWWDQ/logo-1.png" className="w-[150px] md:w-[180px] h-auto" alt="" />
           {/* logo Ends */}
           
           {!show && (
@@ -54,9 +55,10 @@ const Navbar = () => {
                 onClick={() => setShow(true)}
                 className="lg:hidden text-[30px] fixed top-5 right-5"
               />
-              <h2 className="font-bold text-center text-[30px] md:text-[30px] lg:hidden lg:text-[40px]">
+              {/* <h2 className="font-bold text-center text-[30px] md:text-[30px] lg:hidden lg:text-[40px]">
                 Tizara<span className="text-primary-green">.</span>
-              </h2>
+              </h2> */}
+              <img src="https://i.postimg.cc/hjQBWWDQ/logo-1.png" className="w-[150px] lg:hidden md:w-[180px] h-auto" alt="" />
               <ul className={`m-0 p-0 flex gap-x-10 flex-col lg:flex-row`}>
                 
                 {navData.map((item) => (

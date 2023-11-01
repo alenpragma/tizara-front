@@ -1,8 +1,9 @@
 import { Inter } from "next/font/google";
 import "./globals.css";
 import Navbar from "./_components/_navbar/Navbar";
-import Footer from "./_components/_footer/Footer";
+
 import { Montserrat } from "next/font/google";
+import RegistrationNow from "./_components/_registration-now/RegistrationNow";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -19,10 +20,14 @@ const montserrat = Montserrat({
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
+      <head>
+      <link rel="icon" href="/favicon.ico" sizes="any" />
+      </head>
       <body className={`bg-primary-bg ${montserrat.className} text-white`}>
         <Navbar />
         {children}
-        <Footer />
+        <RegistrationNow/>
+    
       </body>
     </html>
   );

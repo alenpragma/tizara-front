@@ -21,7 +21,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <head>
-      <link rel="icon" href="/favicon.ico" sizes="any" />
+      <link rel="icon" href="https://i.postimg.cc/j2H0vdFX/favicon.png" sizes="any" />
       </head>
       <body className={`bg-primary-bg ${montserrat.className} text-white`}>
         <Navbar />

@@ -18,7 +18,7 @@ const RegistrationNow = () => {
         <div className="flex flex-col gap-y-10 md:justify-between md:flex-row ">
           <h2 className="w-full md:w-[40%] text-[20px] md:text-[30px] font-bold">
             Infinite Possibilities, One Platform:{" "}
-            <span className="text-primary-green">The Blockchain Era</span>
+            <span className="text-primary-green">Tizara</span>
           </h2>
           <p className="w-full md:w-[40%] font-semibold">
             Don't miss out on the revolution. Register now to reshape your

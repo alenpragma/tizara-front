@@ -18,3 +18,10 @@ html {
   -webkit-text-fill-color: transparent;
   
 }
+
+
+/* swiper button customize */
+
+.swiper-pagination-bullet{
+  background-color: #07f9c8 !important;
+}

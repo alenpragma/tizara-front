@@ -35,7 +35,7 @@ const DiveSlider = () => {
             </div>
             <div className="w-full md:w-[48%] flex justify-center items-center">
               <img
-                src="	https://tbe.io/_next/static/media/tbeSliderOne.6972d921.png"
+                src="https://i.postimg.cc/T1WfHFh5/TIZARA-01.png"
                 className="w-[75%] h-auto"
                 alt=""
               />
@@ -61,7 +61,7 @@ const DiveSlider = () => {
             </div>
             <div className="w-full md:w-[48%] flex justify-center items-center">
               <img
-                src="	https://tbe.io/_next/static/media/tbeSliderTwo.34c94f0a.png"
+                src="	https://i.postimg.cc/T1WfHFh5/TIZARA-01.png"
                 className="w-[75%] h-auto"
                 alt=""
               />
@@ -87,7 +87,7 @@ const DiveSlider = () => {
             </div>
             <div className="w-full md:w-[48%] flex justify-center items-center">
               <img
-                src="	https://tbe.io/_next/static/media/tbeSliderThree.9a24fd29.png"
+                src="	https://i.postimg.cc/T1WfHFh5/TIZARA-01.png"
                 className="w-[75%] h-auto"
                 alt=""
               />

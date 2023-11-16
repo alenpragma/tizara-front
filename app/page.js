@@ -50,8 +50,7 @@ const page = () => {
                 Embrace the Tizara Era
               </p>
               <h1 className="mt-5 md:mt-10 text-[45px] md:text-[60px] text-center">
-                Unlock the Best <span className="text-primary-green">Era</span>{" "}
-                of your Life
+                Your Trusted Financial Investment Partner
               </h1>
 
               <div className="flex justify-center mt-10">
@@ -94,12 +93,10 @@ const page = () => {
           {/* be a pioneer section start */}
           <div className="max-w-container px-[10px] mx-auto mb-10">
             <h3 className="text-[25px] md:text-[40px] gradiant-text">
-              Elevate Your Horizons: Be a Pioneer in The Blockchain Era
+              Elevate Your Horizons: Be a Pioneer in The Blockchain Investment
             </h3>
             <p className="gradiant-text text-[18px] md:text-[25px] mt-5">
-              At TBE, we are not just about connections, we're about empowering
-              change. Dive into a universe of opportunities and regain control
-              over your destiny. Your future is blockchain; your future is TBE.
+              At Tizara, we specialize in providing innovative investment solutions tailored to the dynamic world of crypto. Our platform offers a seamless and secure experience for investors seeking to capitalize on the potential of digital assets.
             </p>
           </div>
           {/* be a pioneer section end */}

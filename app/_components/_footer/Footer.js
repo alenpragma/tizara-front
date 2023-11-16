@@ -15,10 +15,10 @@ const Footer = () => {
             alt=""
           />
           <p>
-            The Tizara unites individuals under the mission of leveraging modern
-            technologies to empower people and transform society. We're not just
-            a community; we're a movement aiming to redefine industries and
-            shape a fair, empowering future for all.
+            Tizara is a financial investment company. We are dedicated to
+            providing bespoke financial solutions that empower our clients
+            to achieve their investment goals with a strong foundation built
+            on expertise, integrity, and client-centricity.
           </p>
         </div>
         <div className="w-full md:w-[35%] flex flex-col md:flex-row gap-y-10 md:gap-x-3">
@@ -134,7 +134,7 @@ const Footer = () => {
           </Link>
         </div>
       </div>
-    
+
     </>
   );
 };

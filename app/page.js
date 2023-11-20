@@ -107,7 +107,7 @@ const page = () => {
               <div className="w-[100%] md:w-[32%] group">
                 <Link href="/">
                   <img
-                    src="https://tbe.io/_next/static/media/firstProject.85144066.png"
+                    src="https://i.postimg.cc/6qntWvHm/Untitled-2-01.jpg"
                     className="w-full h-auto duration-300 rounded-2xl  group-hover:border group-hover:border-primary-green"
                     alt=""
                   />
@@ -151,7 +151,7 @@ const page = () => {
                 </div>
                 <Link href="/">
                   <img
-                    src="	https://tbe.io/_next/static/media/secondProject.7ad7c3bb.png"
+                    src="https://i.postimg.cc/QxX9VN3y/Untitled-1-01.jpg"
                     className="w-full h-auto duration-300 rounded-2xl  group-hover:border group-hover:border-primary-green"
                     alt=""
                   />
@@ -168,7 +168,7 @@ const page = () => {
               <div className="w-[100%] md:w-[32%] group">
                 <Link href="/">
                   <img
-                    src="https://tbe.io/_next/static/media/thirdProject.aff40f14.png"
+                    src="https://i.postimg.cc/NMWHMZtf/way-concept-illustration-114360-1583-01.jpg"
                     className="w-full h-auto duration-300 rounded-2xl  group-hover:border group-hover:border-primary-green"
                     alt=""
                   />

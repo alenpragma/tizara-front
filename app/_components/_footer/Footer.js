@@ -111,7 +111,7 @@ const Footer = () => {
         </div>
       </div>
       <div className="max-w-container mx-auto px-[10px] py-[50px] flex justify-between items-center">
-        <p className="text-grey">BlockchainEra. All Rights Reserved. © 2023</p>
+        <p className="text-grey">Tizara. All Rights Reserved. © 2023</p>
         <div className="flex items-center gap-x-3">
           <p className="text-grey">Follow on socials:</p>
           <Link

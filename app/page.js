@@ -116,10 +116,7 @@ const page = () => {
                   A New Dawn in Tech & Economy: Welcome to The Blockchain Era
                 </h4>
                 <p>
-                  Join TBE and become part of a grassroots movement redefining
-                  the future. Our groundbreaking platform, state-of-the-art
-                  products, and vibrant community are laying the cornerstone of
-                  a revolutionary era. Engage with us today.
+                  Join Tizara and become part of a world-leading investor for the future. Our groundbreaking platform, blockchain products, and vibrant community are laying the cornerstone of a revolutionary era. Engage with us today.
                 </p>
               </div>
               {/* card one end */}
@@ -160,15 +157,10 @@ const page = () => {
                   />
                 </Link>
                 <h4 className="font-semibold text-[20px] md:text-[30px] mb-3">
-                  Ignite, Innovate, Ascend: Your Blockchain Journey Begins with
-                  TBE
+                  Investment: Your Blockchain Investment Journey Begins with Tizara
                 </h4>
                 <p>
-                  Tizara isn't just a service; it's a social revolution. We
-                  furnish you with the tools, the expertise, and the community
-                  you need to excel in this disruptive landscape. Step into your
-                  blockchain future with us and tap into limitless
-                  possibilities.
+                  Tizara isn't just a financial service; it's a social revolution. We furnish you with the tools, the expertise, and the community you need to excel in this disruptive landscape. Step on investment in the blockchain future with us and tap into limitless possibilities.
                 </p>
               </div>
               {/* card two end */}
@@ -182,13 +174,10 @@ const page = () => {
                   />
                 </Link>
                 <h4 className="font-semibold text-[20px] md:text-[30px] mb-3">
-                  Forge Your Success: Pave Your Path with The Tizara
+                  Pave Your Path with The Tizara
                 </h4>
                 <p>
-                  Tizara simplifies the complex, making blockchain accessible
-                  and fruitful for all. From pioneering products to
-                  comprehensive services, we’ve got your blockchain ambitions
-                  covered. Join TBE today and begin crafting your legacy.
+                  Tizara simplifies the complex, making blockchain investment accessible and fruitful for all. From investment to comprehensive services, we’ve got your blockchain ambitions covered. Join Tizara today and become a crypto investor.
                 </p>
               </div>
               {/* card three end */}

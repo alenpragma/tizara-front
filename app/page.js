@@ -195,7 +195,7 @@ const page = () => {
           {/* Scale New Heights start */}
           <div className="!mt-[80px] max-w-container px-[10px] mx-auto mb-10">
             <h3 className="text-[25px] md:text-[40px] gradiant-text">
-              Scale New Heights: Today's Pioneers, Tomorrow's Leaders
+              Scale of Investment: Today's Beginner, Tomorrow's Leader
             </h3>
             <div className="flex items-center gap-x-3">
               <img
@@ -204,8 +204,8 @@ const page = () => {
               />
 
               <h3 className="text-[20px] md:text-[30px] mt-10">
-                Join <span className="!text-primary-green">3.1K+</span> New
-                Members Today and Start Building Your Digital Empire
+                Join <span className="!text-primary-green">3.1K+</span>
+                New Members Today and Start Journey with Blockchain Investment
               </h3>
             </div>
             <div className="flex flex-col md:flex-row mt-[80px] gap-y-3 md:gap-x-3">
@@ -223,14 +223,10 @@ const page = () => {
                   />
                   <div className="relative w-full md:w-[50%] duration-300  z-3">
                     <h4 className="font-semibold text-[18px] md:text-[25px] mb-3">
-                      Climb the Ranks: Your Digital Career Awaits
+                      Climb the Ranks: Your Bonus Awaits
                     </h4>
                     <p>
-                      TBE offers you the unique opportunity to climb the ranks
-                      in a dynamic, fast-paced digital career. With various
-                      ranks and milestones, your potential for growth and
-                      development is limitless. Turn your passion for blockchain
-                      into a rewarding career today.
+                      Tizara offers you the unique opportunity to climb the ranks. With various ranks and milestones, your earning growth and development are limitless. Start your income from today.
                     </p>
                   </div>
                 </div>
@@ -247,13 +243,10 @@ const page = () => {
                   />
                   <div className="relative w-full md:w-[50%] duration-300  z-3">
                     <h4 className="font-semibold text-[18px] md:text-[25px] mb-3">
-                      Reap the Rewards: The Freedom to Excel
+                      Investing for Your Future: Securing Tomorrow's Success Today.
                     </h4>
                     <p>
-                      At TBE, we believe in recognizing and rewarding your hard
-                      work. Our comprehensive rewards program ensures that your
-                      contributions don't just benefit the community, they pave
-                      the way for your personal freedom.
+                      Planning for the future involves making smart investment decisions today. Remember, investing is a long-term commitment. Start investing today to secure a prosperous future tomorrow.
                     </p>
                   </div>
                 </div>
@@ -268,13 +261,10 @@ const page = () => {
 
                   <div className="relative w-full  duration-300  z-3">
                     <h4 className="font-semibold text-[18px] md:text-[25px] mb-3">
-                      Reap the Rewards: The Freedom to Excel
+                      Most Amazing Features
                     </h4>
                     <p>
-                      At TBE, we believe in recognizing and rewarding your hard
-                      work. Our comprehensive rewards program ensures that your
-                      contributions don't just benefit the community, they pave
-                      the way for your personal freedom.
+                      Tizara exists to improve your systematic investment profitability and to help you succeed at a career in quantitative finance. You don't need to learn any complicated financial investing skills, all of this is done by our expert team.
                     </p>
                   </div>
                   <img

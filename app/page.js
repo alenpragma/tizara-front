@@ -217,7 +217,7 @@ const page = () => {
                     alt=""
                   />
                   <img
-                    src="https://tbe.io/_next/static/media/ranksIMG.b28eca51.png"
+                    src="https://i.postimg.cc/Wpw5j8Qf/Untitled-1-01.png"
                     className="md:absolute top-0 right-0"
                     alt=""
                   />
@@ -237,7 +237,7 @@ const page = () => {
                     alt=""
                   />
                   <img
-                    src="https://tbe.io/_next/static/media/chartJoiners.0dd44e9c.png"
+                    src="https://i.postimg.cc/Ghk86gVH/Investing-for-Your-Future-01.png"
                     className="md:absolute top-0 right-0"
                     alt=""
                   />
@@ -268,7 +268,7 @@ const page = () => {
                     </p>
                   </div>
                   <img
-                    src="https://tbe.io/_next/static/media/userstree.914b181a.png"
+                    src="https://i.postimg.cc/bvnKRbsc/Most-Amazing-Features-01.png"
                     className=" w-full h-auto"
                     alt=""
                   />

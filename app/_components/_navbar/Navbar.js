@@ -23,6 +23,10 @@ const Navbar = () => {
       name: "Services",
       path: "/pages/services",
     },
+    {
+      name: "Contact",
+      path: "/pages/contact",
+    },
   ];
   //   navbar responsive functionality
   let [show, setShow] = useState(true);
@@ -46,7 +50,9 @@ const Navbar = () => {
           {/* <h2 className="font-bold text-[30px] md:text-[30px]  lg:text-[40px]">
             Tizara<span className="text-primary-green">.</span>
           </h2> */}
+          <Link href="/">
           <img src="https://i.postimg.cc/hjQBWWDQ/logo-1.png" className="w-[150px] md:w-[180px] h-auto" alt="" />
+          </Link>
           {/* logo Ends */}
           
           {!show && (
@@ -90,7 +96,7 @@ const Navbar = () => {
                           : ""
                       } `}
                     >
-                      Contact Us
+                      Register
                     </div>
                   </Link>
                 </div>

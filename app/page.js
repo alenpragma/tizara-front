@@ -1,7 +1,90 @@
 import Link from "next/link";
 import React from "react";
 import { CiLocationArrow1 } from "react-icons/ci";
+import { FaCog, FaTrophy, FaUsers, FaShieldAlt } from 'react-icons/fa';
 import OurPartnerSlider from "./_components/_sliders/_our-pertner-slider/OurPartnerSlider";
+import {
+  FaRocket,
+  FaMoneyBill,
+  FaClock,
+  FaCalendar,
+  FaDollarSign,
+} from "react-icons/fa";
+
+let pricingPlan = [
+  {
+    name: "Starter Plan",
+    icon: <FaRocket />,
+    profitRate: "Daily 1.5%",
+    investment: "$150",
+    capitalBack: true,
+    returnType: "Period",
+    numberOfPeriods: 2,
+    profitWithdrawal: "Anytime",
+    cancelWithinMinutes: 59,
+    noProfitHolidays: true,
+  },
+  {
+    name: "Standard Plan",
+    icon: <FaMoneyBill />,
+    profitRate: "Weekly 1.2%",
+    investment: "$100-$500",
+    capitalBack: false,
+    returnType: "Period",
+    numberOfPeriods: 3,
+    profitWithdrawal: "Anytime",
+    cancelWithinMinutes: 40,
+    holidays: ["Monday"],
+    bestSchema: "Best Schema",
+  },
+  {
+    name: "Advanced Plan",
+    icon: <FaClock />,
+    profitRate: "Hour $11",
+    investment: "$200",
+    capitalBack: false,
+    returnType: "Period",
+    numberOfPeriods: 2,
+    profitWithdrawal: "Anytime",
+    cancelWithinMinutes: 59,
+    noProfitHolidays: true,
+  },
+  {
+    name: "Pro Plan",
+    icon: <FaDollarSign />,
+    profitRate: "Daily $10",
+    investment: "$250",
+    capitalBack: true,
+    returnType: "Period",
+    numberOfPeriods: 5,
+    profitWithdrawal: "Anytime",
+    cancelWithinMinutes: 50,
+    noProfitHolidays: true,
+  },
+];
+
+let featuresData = [
+  {
+    "name": "Automatic and Manual Gateway",
+    "description": "Etaque molestias enim quo harum ex, inventore eos corporis temporibus sint reiciendis nemo similique consequuntur eum.",
+    "icon": <FaCog />
+  },
+  {
+    "name": "Ranking Badge System",
+    "description": "Etaque molestias enim quo harum ex, inventore eos corporis temporibus sint reiciendis nemo similique consequuntur eum.",
+    "icon": <FaTrophy />
+  },
+  {
+    "name": "Referral Level System",
+    "description": "Etaque molestias enim quo harum ex, inventore eos corporis temporibus sint reiciendis nemo similique consequuntur eum.",
+    "icon": <FaUsers />
+  },
+  {
+    "name": "Secure Application",
+    "description": "Etaque molestias enim quo harum ex, inventore eos corporis temporibus sint reiciendis nemo similique consequuntur eum.",
+    "icon": <FaShieldAlt />
+  }
+];
 
 const page = () => {
   return (
@@ -96,7 +179,10 @@ const page = () => {
               Elevate Your Horizons: Be a Pioneer in The Blockchain Investment
             </h3>
             <p className="gradiant-text text-[18px] md:text-[25px] mt-5">
-              At Tizara, we specialize in providing innovative investment solutions tailored to the dynamic world of crypto. Our platform offers a seamless and secure experience for investors seeking to capitalize on the potential of digital assets.
+              At Tizara, we specialize in providing innovative investment
+              solutions tailored to the dynamic world of crypto. Our platform
+              offers a seamless and secure experience for investors seeking to
+              capitalize on the potential of digital assets.
             </p>
           </div>
           {/* be a pioneer section end */}
@@ -116,7 +202,10 @@ const page = () => {
                   A New Dawn in Tech & Economy: Welcome to The Blockchain Era
                 </h4>
                 <p>
-                  Join Tizara and become part of a world-leading investor for the future. Our groundbreaking platform, blockchain products, and vibrant community are laying the cornerstone of a revolutionary era. Engage with us today.
+                  Join Tizara and become part of a world-leading investor for
+                  the future. Our groundbreaking platform, blockchain products,
+                  and vibrant community are laying the cornerstone of a
+                  revolutionary era. Engage with us today.
                 </p>
               </div>
               {/* card one end */}
@@ -157,10 +246,15 @@ const page = () => {
                   />
                 </Link>
                 <h4 className="font-semibold text-[20px] md:text-[30px] mb-3">
-                  Investment: Your Blockchain Investment Journey Begins with Tizara
+                  Investment: Your Blockchain Investment Journey Begins with
+                  Tizara
                 </h4>
                 <p>
-                  Tizara isn't just a financial service; it's a social revolution. We furnish you with the tools, the expertise, and the community you need to excel in this disruptive landscape. Step on investment in the blockchain future with us and tap into limitless possibilities.
+                  Tizara isn't just a financial service; it's a social
+                  revolution. We furnish you with the tools, the expertise, and
+                  the community you need to excel in this disruptive landscape.
+                  Step on investment in the blockchain future with us and tap
+                  into limitless possibilities.
                 </p>
               </div>
               {/* card two end */}
@@ -177,7 +271,10 @@ const page = () => {
                   Pave Your Path with The Tizara
                 </h4>
                 <p>
-                  Tizara simplifies the complex, making blockchain investment accessible and fruitful for all. From investment to comprehensive services, we’ve got your blockchain ambitions covered. Join Tizara today and become a crypto investor.
+                  Tizara simplifies the complex, making blockchain investment
+                  accessible and fruitful for all. From investment to
+                  comprehensive services, we’ve got your blockchain ambitions
+                  covered. Join Tizara today and become a crypto investor.
                 </p>
               </div>
               {/* card three end */}
@@ -226,7 +323,10 @@ const page = () => {
                       Climb the Ranks: Your Bonus Awaits
                     </h4>
                     <p>
-                      Tizara offers you the unique opportunity to climb the ranks. With various ranks and milestones, your earning growth and development are limitless. Start your income from today.
+                      Tizara offers you the unique opportunity to climb the
+                      ranks. With various ranks and milestones, your earning
+                      growth and development are limitless. Start your income
+                      from today.
                     </p>
                   </div>
                 </div>
@@ -243,10 +343,14 @@ const page = () => {
                   />
                   <div className="relative w-full md:w-[50%] duration-300  z-3">
                     <h4 className="font-semibold text-[18px] md:text-[25px] mb-3">
-                      Investing for Your Future: Securing Tomorrow's Success Today.
+                      Investing for Your Future: Securing Tomorrow's Success
+                      Today.
                     </h4>
                     <p>
-                      Planning for the future involves making smart investment decisions today. Remember, investing is a long-term commitment. Start investing today to secure a prosperous future tomorrow.
+                      Planning for the future involves making smart investment
+                      decisions today. Remember, investing is a long-term
+                      commitment. Start investing today to secure a prosperous
+                      future tomorrow.
                     </p>
                   </div>
                 </div>
@@ -264,7 +368,11 @@ const page = () => {
                       Most Amazing Features
                     </h4>
                     <p>
-                      Tizara exists to improve your systematic investment profitability and to help you succeed at a career in quantitative finance. You don't need to learn any complicated financial investing skills, all of this is done by our expert team.
+                      Tizara exists to improve your systematic investment
+                      profitability and to help you succeed at a career in
+                      quantitative finance. You don't need to learn any
+                      complicated financial investing skills, all of this is
+                      done by our expert team.
                     </p>
                   </div>
                   <img
@@ -277,6 +385,131 @@ const page = () => {
             </div>
           </div>
           {/* Scale New Heights end */}
+          {/* invest,ent plan start */}
+          <div className="!mt-[80px] max-w-container px-[10px] mx-auto mb-10">
+            <p className="gradiant-text text-[18px] md:text-[25px] mt-5">
+              OUR INVESTMENT PLANS
+            </p>
+            <h3 className="text-[25px] md:text-[40px] gradiant-text">
+              The plans we offer is specifically made for you.
+            </h3>
+            <div className="mt-10 flex flex-col gap-y-3 md:flex-row md:gap-y-0 md:gap-x-3 justify-between ">
+              {pricingPlan.map((item) => (
+                <div className="w-full flex flex-col relative gap-y-5 md:w-[32%] lg:w-[24%] rounded-lg border p-3 group overflow-hidden">
+                  <img src="https://tbe.io/_next/static/media/joinersEclipseGreen.6c493366.png" className="absolute bottom-0 left-0 w-full h-auto" alt="" />
+                  <div className="flex justify-end absolute w-full top-3 right-3 ">
+                    {item.bestSchema && (
+                      <div className="bg-primary-green p-2 rounded-lg text-center">
+                        {item.bestSchema}
+                      </div>
+                    )}
+                  </div>
+                  <div className="mt-[80px] text-[40px]">{item.icon}</div>
+                  <div className="text-[25px] font-semibold">
+                    {item.name}
+                    <p className="text-primary-green text-[12px]">
+                      {item.profitRate}
+                    </p>
+                  </div>
+                  {/* ------------ */}
+                  <div className="flex items-center justify-between">
+                    <div className="">Investment</div>
+                    <div className="rounded-lg p-1 bg-primary-green">
+                      {item.investment}
+                    </div>
+                  </div>
+                  {/* ------------------ */}
+                  {/* ------------ */}
+                  <div className="flex items-center justify-between">
+                    <div className="">Capital Back</div>
+                    <div className="">{item.capitalBack ? "Yes" : "No"}</div>
+                  </div>
+                  {/* ------------------ */}
+                  {/* ------------ */}
+                  <div className="flex items-center justify-between">
+                    <div className="">Return Type</div>
+                    <div className="">{item.returnType}</div>
+                  </div>
+                  {/* ------------------ */}
+                  {/* ------------ */}
+                  <div className="flex items-center justify-between">
+                    <div className="">Number of Period</div>
+                    <div className="">{`${item.numberOfPeriods} Times`}</div>
+                  </div>
+                  {/* ------------------ */}
+                  {/* ------------ */}
+                  <div className="flex items-center justify-between">
+                    <div className="">Profit Withdraw</div>
+                    <div className="">{`${item.profitWithdrawal}`}</div>
+                  </div>
+                  {/* ------------------ */}
+                  {/* ------------ */}
+                  <div className="flex items-center justify-between">
+                    <div className="">Cancel</div>
+                    <div className="">
+                      {`Within ${item.cancelWithinMinutes} Minute`}
+                    </div>
+                  </div>
+                  {/* ------------------ */}
+                  <div className="text-[12px] text-primary-green">
+                    {item.noProfitHolidays
+                      ? "*No Profit Holidays"
+                      : "*Monday are Holidays"}
+                  </div>
+                  {/* button start */}
+                  <div className="py-[40px] group-hover:translate-y-[-15px] duration-300">
+                    <div
+                   
+                      className="bg-border-black p-[2px] relative flex justify-center items-center overflow-hidden "
+                    >
+                      <div className="button-animation absolute w-[300px] h-[20px] z-1 opacity-70 bg-primary-green  shadow-2xl  "></div>
+
+                      <Link href="/" className="relative z-3 w-full">
+                        <div
+                          className={`py-[15px] px-[23px] w-full text-center  bg-primary-bg duration-300 hover:text-primary-green  `}
+                        >
+                          Invest Now
+                        </div>
+                      </Link>
+                    </div>
+                  </div>
+                  {/* button end */}
+                </div>
+              ))}
+            </div>
+          </div>
+          {/* investment plan end */}
+          {/* why choose us start */}
+          <div className="!mt-[80px] max-w-container px-[10px] mx-auto mb-10">
+          <p className="gradiant-text text-[18px] md:text-[25px] mt-5">
+          WHY CHOOSE US
+            </p>
+            <h3 className="text-[25px] md:text-[40px] gradiant-text">
+              Explore Why You Will Choose Us.
+            </h3>
+            <div className="flex flex-col gap-y-4 md:flex-row md:gap-y-0 md:gap-x-3 justify-between items-center mt-[70px]">
+              <div className=" w-full md:w-[49%]">
+                <img src="https://i.postimg.cc/Njd1gSL0/office-buildings-glass-green.webp" className="w-full h-auto rounded-lg" alt="" />
+                </div> 
+                <div className=" w-full md:w-[49%] flex flex-col gap-y-5">
+                  {
+                    featuresData.map((item)=>(
+
+                  <div className="flex gap-x-2 items-center">
+                    <div className="w-[80px] h-[80px] bg-primary-green text-[30px] rounded-lg flex justify-center items-center">
+                      {item.icon}
+                    </div>
+                    <div className="">
+                      <p className="font-semibold">{item.name}</p>
+                      <p className="text-[14px] mt-2">{item.description}</p>
+                    </div>
+                  </div>
+                    ))
+                  }
+                </div>
+            </div>
+          </div>
+          {/* why choose end */}
         </div>
       </div>
     </>

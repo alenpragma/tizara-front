@@ -84,11 +84,12 @@ const Navbar = () => {
                 ))}
               </ul>
 
+
               <div className="">
                 <div         onClick={() => window.innerWidth < 1024 && setShow(true)} className="bg-border-black p-[2px] relative flex justify-center items-center overflow-hidden">
                   <div className="button-animation absolute w-[300px] h-[20px] z-1 opacity-70 bg-primary-green  shadow-2xl  "></div>
 
-                  <Link href="/pages/contact" className="relative z-3">
+                  <Link href="https://client.tizara.co/register" className="relative z-3">
                     <div
                       className={`py-[15px] px-[23px]  bg-primary-bg duration-300 hover:text-primary-green ${
                         pathname === `/pages/contact`

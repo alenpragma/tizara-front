@@ -137,7 +137,7 @@ const page = () => {
               </h1>
 
               <div className="flex justify-center mt-10">
-                <Link href="/">
+                <Link href="https://client.tizara.co/register">
                   <div className="group w-[90px] md:w-[140px] h-[90px] md:h-[140px] rounded-full border border-grey flex justify-center items-center duration-300 hover:bg-primary-green ">
                     <CiLocationArrow1 className="text-[30px] group-hover:text-[#222] duration-300" />
                   </div>
@@ -385,7 +385,7 @@ const page = () => {
             </div>
           </div>
           {/* Scale New Heights end */}
-          {/* invest,ent plan start */}
+          {/* investment plan start */}
           <div className="!mt-[80px] max-w-container px-[10px] mx-auto mb-10">
             <p className="gradiant-text text-[18px] md:text-[25px] mt-5">
               OUR INVESTMENT PLANS
@@ -464,7 +464,7 @@ const page = () => {
                     >
                       <div className="button-animation absolute w-[300px] h-[20px] z-1 opacity-70 bg-primary-green  shadow-2xl  "></div>
 
-                      <Link href="/" className="relative z-3 w-full">
+                      <Link href="https://client.tizara.co/login" className="relative z-3 w-full">
                         <div
                           className={`py-[15px] px-[23px] w-full text-center  bg-primary-bg duration-300 hover:text-primary-green  `}
                         >

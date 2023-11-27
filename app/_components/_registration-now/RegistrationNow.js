@@ -23,7 +23,7 @@ const RegistrationNow = () => {
           <p className="w-full md:w-[40%] font-semibold">
             Don't miss out on the revolution. Register now to reshape your
             future! <br />
-            <a href="" className="underline font-bold text-primary-green">
+            <a href="https://client.tizara.co/register" className="underline font-bold text-primary-green">
               Register Now
             </a>
           </p>

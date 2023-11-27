@@ -6,34 +6,34 @@ import React from "react";
 const About = () => {
   let keyFeatureData = [
     {
-      icon: "	https://tbe.io/_next/static/media/featureOneIcon.9ade4402.svg",
-      title: "Blockchain Solutions",
-      text: "Leverage TBE's avant-garde blockchain technology for secure, transparent, and hyper-efficient digital interactions.",
+      icon: "https://i.postimg.cc/R0vNXJbh/OUR-MISSION-01.png",
+      title: "OUR MISSION",
+      text: "Our mission is to pioneer innovative financial solutions within the cryptocurrency landscape.We aim to empower investors by providing comprehensive insights, cryptocurrency, capital stoke market, fostering education and delivering tailored investment strategies.In the future, we will build our own cryptocurrency, blockchain wallet, exchanger, etc.We strive to facilitate seamless access to crypto investments while prioritizing transparency, security and sustained growth for our client's portfolios.",
     },
     {
-      icon: "https://tbe.io/_next/static/media/tech-suite-product-feature.26a81b2a.svg",
-      title: "Cutting-Edge Tech Suite",
-      text: "Dive into TBE's premier tech offerings, architected to catapult both your personal and business ventures into a future of efficiency, security, and innovation.",
+      icon: "https://i.postimg.cc/YCmMwrT7/OUR-VISION-01.png",
+      title: "OUR VISION",
+      text: "At Tizara, we envision a future where crypto investments are accessible, secure, and transformative. Our goal is to lead the charge in revolutionizing traditional finance by offering cutting-edge investment opportunities in the cryptocurrency realm. We aspire to be the beacon of trust, innovation and growth, empowering individuals and institutions to embrace the limitless potential of digital assets while ensuring financial prosperity and stability.",
     },
     {
-      icon: "	https://tbe.io/_next/static/media/ecosystem-product-feature.a1edea07.svg",
-      title: "Collaborative Ecosystem",
-      text: "Immerse yourself in TBE's robust community of blockchain aficionados, experts, and visionaries, collectively striving for innovation and success.",
+      icon: "https://i.postimg.cc/Jz3YXSkJ/WHAT-WE-OFFER-01.png",
+      title: "WHAT WE OFFER",
+      text: "We specialize in providing tailored investment solutions and guidance to both seasoned traders and newcomers venturing into the crypto space. Our comprehensive suite of services includes portfolio management, personalized investment strategies, market analysis, and educational resources aimed at fostering financial literacy within the crypto ecosystem.",
     },
     {
-      icon: "https://tbe.io/_next/static/media/empowerment-feature-icon.40c3398a.svg",
-      title: "Financial Empowerment",
-      text: "Gain true financial autonomy with TBE’s invaluable educational resources, pragmatic tools, and ongoing support, guiding you to take the reins of your fiscal future.",
+      icon: "https://i.postimg.cc/QCpYqzyR/OUR-APPROACH-01.png",
+      title: "OUR APPROACH",
+      text: "Transparency, security, and integrity form the bedrock of our operations. We prioritize due diligence in selecting assets and projects, employing rigorous risk management practices to ensure the safety and growth of our client's investments. By staying ahead of market trends and leveraging innovative technologies, we strive to deliver consistent value and sustainable growth opportunities.",
     },
     {
-      icon: "	https://tbe.io/_next/static/media/rewards-feature-icon.a0c5f574.svg",
-      title: "Incentive-Driven Rewards",
-      text: "Thrive within TBE's dynamic rewards ecosystem, designed to commend your contributions, foster excellence, and amplify your impact.",
+      icon: "https://i.postimg.cc/G2DXcNdH/OUR-COMMITMENT-01.png",
+      title: "OUR COMMITMENT",
+      text: "We're here to help you achieve your financial goals, whether you're just starting out or looking to take your investment to the next level. Your financial future is in your hands and we're here to guide you every step of the way.",
     },
     {
-      icon: "	https://tbe.io/_next/static/media/users-feature-icon.9058d04d.svg",
-      title: "Intuitive User Experience",
-      text: "Navigate TBE’s seamlessly designed platform, optimizing your interaction with, and adoption of, blockchain technologies and services.",
+      icon: "https://i.postimg.cc/3J1nJ25C/COLLABORATION-01.png",
+      title: "COLLABORATION",
+      text: "At Tizara, we leverage the power of Atomation, Robotix, Blockchain, Sigma Trade, Matrix, and AI to redefine the investment landscape. We believe that this technology gives us transparency and secure investment. We also have a partnership with Cubix blockchain development company.",
     },
   ];
   return (
@@ -53,11 +53,16 @@ const About = () => {
           <div className="max-w-container text-center px-[10px]  mx-auto">
             <p>CONNECT, PRODUCE, MAXIMIZE: THE BLOCKCHAIN ERA BEGINS</p>
             <h1 className="mt-3 text-[35px] font-bold md:text-[50px] text-center">
-              Explore the Future: TBE's Innovative Products
+              Welcome to TIZARA
             </h1>
             <p className="mt-3 mb-5 text-grey text-center">
-              Unlock a world of possibilities with TBE's innovative blockchain
-              products and services tailored to elevate your digital experience.
+              Tizara is a financial investment company. We are dedicated to
+              providing bespoke financial solutions that empower our clients
+              to achieve their investment goals with a strong foundation built
+              on expertise, integrity, and client-centricity. With a steadfast
+              commitment to innovation and strategic foresight, we specialize
+              in navigating the dynamic landscape of digital assets and
+              blockchain technology.
             </p>
             <Link href="/">
               <div className="py-[10px] px-[20px] border rounded-lg text-center inline-block mt-5 duration-500 hover:bg-primary-green ">
@@ -88,7 +93,7 @@ const About = () => {
                 }}
                 className="rounded-md w-full md:w-[49%] lg:w-[32%]  p-4 flex flex-col gap-y-3"
               >
-                <img className="w-[50px] h-auto" src={item.icon} alt="" />
+                <img className="w-[40px] h-auto" src={item.icon} alt="" />
                 <h3 className="font-bold text-[25px]">{item.title}</h3>
                 <p>{item.text}</p>
               </div>
@@ -104,10 +109,10 @@ const About = () => {
         </div>
         {/* dive in text end */}
         {/* dive slider start */}
-        <DiveSlider/>                                                                                                                                             
+        <DiveSlider />
         {/* dive slider end */}
         {/* our client slider start */}
-        <OurClientSlider/>
+        <OurClientSlider />
         {/* our client slider end */}
       </div>
     </>

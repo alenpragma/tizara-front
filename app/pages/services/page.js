@@ -7,33 +7,33 @@ const Setvice = () => {
   let keyFeatureData = [
     {
       icon: "	https://tbe.io/_next/static/media/portfolioIconOne.12feb3e1.svg",
-      title: "Marketing Tools",
-      text: "Level up your marketing strategies with TBE's advanced marketing tools designed for optimum reach and engagement.",
+      title: "Start-Up Plan",
+      text: "This plan price starts from 100$ and this plan's daily ROI bonus is 0.3% - 0.7%",
     },
     {
       icon: "https://tbe.io/_next/static/media/portfolioIconTwo.1f092338.svg",
-      title: "Rewards System",
-      text: "Earn as you learn, with our unique rewards system that incentivizes your contributions and activity within the community.",
+      title: "Basic Plan",
+      text: "This plan price starts from 500$ and this plan's daily ROI bonus is 0.3% - 0.7%",
     },
     {
       icon: "	https://tbe.io/_next/static/media/ecosystem-product-feature.a1edea07.svg",
-      title: "Exclusive User Interface",
-      text: "Navigate through our exclusive, user-friendly interface designed to make your experience smooth and efficient.",
+      title: "Standard Plan",
+      text: "This plan price starts from 1000$ and this plan's daily ROI bonus is 0.3% - 0.7%",
     },
     {
       icon: "https://tbe.io/_next/static/media/portfolioIconThree.62e19c3e.svg",
-      title: "Performance Monitor",
-      text: "Get real-time insights into your operations with our performance monitor, a comprehensive dashboard that simplifies analytics.",
+      title: "Tzra Pro Plan",
+      text: "This plan price starts from 5000$ and this plan's daily ROI bonus is 0.3% - 0.7%",
     },
     {
       icon: "	https://tbe.io/_next/static/media/portfolioIconFour.75ea5767.svg",
-      title: "Powerful Partner",
-      text: "With TBE as your partner, unlock unparalleled support and resources to propel your business or personal ventures to new heights.",
+      title: "Tzra Pro Max Plan",
+      text: "This plan price starts from 10000$ and this plan's daily ROI bonus is 0.3% - 0.7%",
     },
     {
       icon: "	https://tbe.io/_next/static/media/users-feature-icon.9058d04d.svg",
-      title: "Intuitive User Experience",
-      text: "Navigate TBE’s seamlessly designed platform, optimizing your interaction with, and adoption of, blockchain technologies and services.",
+      title: "Tzra Infinity Plan",
+      text: "This plan price starts from 20000$ and this plan's daily ROI bonus is 0.3% - 0.7%",
     },
   ];
   useEffect(() => {
@@ -65,11 +65,10 @@ const Setvice = () => {
         className="max-w-container px-[10px] mx-auto py-[100px]"
       >
         <h1 className="mt-3 text-[35px] w-full md:w-[40%] font-bold md:text-[50px] leading-[50px]">
-          Unleash the Power of World-Class Services
+          Unleash the Power of Financial Services
         </h1>
         <p className="font-semibold gradiant-text w-full md:w-[30%] mt-5 text-[18px]">
-          Transform your endeavors with our versatile and robust suite of
-          services.
+          Join TIZARA on The Journey to Financial Success. We empower you to navigate the world of investments confidently.
         </p>
         <Link href="/">
           <div className="py-[10px] px-[20px] border rounded-lg text-center inline-block mt-5 duration-500 hover:bg-primary-green ">
@@ -80,12 +79,11 @@ const Setvice = () => {
       {/* ??//////////////////////////// */}
       <div className="max-w-container px-[10px] mx-auto py-[70px]">
         <h2 className="text-[25px] md:text-[35px] text-center font-bold gradiant-text">
-          Features that Elevate Your Journey
+          Start Journey with Our Investment Plan
         </h2>
         <div className=" flex justify-center">
           <p className="text-grey text-center mt-5 w-[70%] gradiant-text">
-            Our range of services are tailored to meet the diverse needs of
-            modern users.
+            Our range of services is tailored to meet the diverse needs of modern users.
           </p>
         </div>
         {/* key feature start */}
@@ -127,9 +125,7 @@ const Setvice = () => {
               </div>
               <div className="">
                 <p>
-                  Our focus on quality ensures that you are always met with
-                  excellence, whether it's in products, services, or community
-                  engagement.
+                  Our focus on quality ensures that you are always met with excellence, whether it's in products, services, packages, or community engagement.
                 </p>
               </div>
             </div>
@@ -144,8 +140,7 @@ const Setvice = () => {
               </div>
               <div className="">
                 <p>
-                  TBE's reliable platforms and tools are backed by cutting-edge
-                  technology and security features to give you peace of mind.
+                TIZARA's reliable platforms and tools are backed by the best blockchain technology and security features to give you peace of mind.
                 </p>
               </div>
             </div>
@@ -160,9 +155,7 @@ const Setvice = () => {
               </div>
               <div className="">
                 <p>
-                  Become part of a community that inspires innovation and
-                  collaborative success, pushing boundaries in the blockchain
-                  era.
+                Become part of a community that inspires innovation and collaborative success, pushing boundaries in the blockchain era.
                 </p>
               </div>
             </div>
@@ -183,7 +176,7 @@ const Setvice = () => {
         {/* client slider */}
         <div className="mt-[60px] md:mt-[100px]">
 
-        <OurClientSlider/>
+          <OurClientSlider />
         </div>
       </div>
     </>

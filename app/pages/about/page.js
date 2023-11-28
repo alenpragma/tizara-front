@@ -74,7 +74,7 @@ const About = () => {
         {/* about banner end */}
         {/* key feature start */}
         <div className="max-w-container px-[10px] mx-auto py-[100px]">
-          <div className="flex flex-col gap-y-10 md:justify-between md:flex-row ">
+          {/* <div className="flex flex-col gap-y-10 md:justify-between md:flex-row ">
             <h2 className="w-full md:w-[40%] text-[20px] md:text-[30px] font-bold gradiant-text">
               Key Features of TBE's Revolutionary Offerings
             </h2>
@@ -83,7 +83,7 @@ const About = () => {
               TBE equips you with all the tools you need for a transformative
               journey.
             </p>
-          </div>
+          </div> */}
           <div className="py-[80px] flex flex-col md:flex-row gap-3 flex-wrap">
             {keyFeatureData.map((item) => (
               <div
@@ -104,7 +104,7 @@ const About = () => {
         {/* dive in text start */}
         <div className="max-w-container px-[10px] mx-auto ">
           <h2 className="text-[25px] md:text-[35px] text-center font-bold gradiant-text mb-10">
-            Your Blockchain Destiny is One Click Away: Dive In!
+          JOIN US
           </h2>
         </div>
         {/* dive in text end */}

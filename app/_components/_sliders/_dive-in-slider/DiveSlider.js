@@ -20,17 +20,10 @@ const DiveSlider = () => {
           <div className="w-full flex flex-col-reverse md:flex-row justify-between items-center pb-[60px] md:pb-0">
             <div className="w-full md:w-[48%] ">
               <p>
-                TBE takes blockchain technology's inherent virtues of security
-                and transparency to the next level. Our premium products stand
-                as paragons of innovation and quality, encapsulating the
-                freshest breakthroughs in the blockchain sphere. Rest easy
-                knowing you're equipped with trustworthy and state-of-the-art
-                solutions.
+                Whether you're a seasoned investor seeking to diversify your portfolio or someone curious about the potential of cryptocurrencies, TIZARA welcomes you to join us on this exciting journey. Together, let's explore the endless possibilities that the world of digital assets has to offer.
               </p>
               <p className="mt-5 font-bold">
-                Experience the full scope of blockchain's potential with TBE.
-                Achieve your aspirations in the digital frontier—click to
-                explore our product range now.
+              Get in touch with us today to discover how we can help you navigate the ever-evolving crypto landscape and achieve your financial goals.
               </p>
             </div>
             <div className="w-full md:w-[48%] flex justify-center items-center">

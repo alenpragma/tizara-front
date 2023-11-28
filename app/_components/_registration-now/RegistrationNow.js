@@ -21,6 +21,7 @@ const RegistrationNow = () => {
             <span className="text-primary-green">Tizara</span>
           </h2>
           <p className="w-full md:w-[40%] font-semibold">
+            Thank you for considering TIZARA as your partner in the world of crypto investments. <br />
             Don't miss out on the revolution. Register now to reshape your
             future! <br />
             <a href="https://client.tizara.co/register" className="underline font-bold text-primary-green">

@@ -60,7 +60,7 @@ const Footer = () => {
             <ul className="mt-5 flex flex-col gap-y-4">
               <li className="custom-li">
                 <Link
-                  href="pages/privacy-cookie-policy"
+                  href="/pages/privacy"
                   className="duration-300 hover:text-primary-green"
                 >
                   Privacy & Cookie Policy

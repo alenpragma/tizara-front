@@ -6,32 +6,32 @@ import React, { useEffect } from "react";
 const Setvice = () => {
   let keyFeatureData = [
     {
-      icon: "	https://tbe.io/_next/static/media/portfolioIconOne.12feb3e1.svg",
+      icon: "https://i.postimg.cc/HskKn6G9/icons-4-01.png",
       title: "Start-Up Plan",
       text: "This plan price starts from 100$ and this plan's daily ROI bonus is 0.3% - 0.7%",
     },
     {
-      icon: "https://tbe.io/_next/static/media/portfolioIconTwo.1f092338.svg",
+      icon: "https://i.postimg.cc/gjSg3P9q/icons-3-01.png",
       title: "Basic Plan",
       text: "This plan price starts from 500$ and this plan's daily ROI bonus is 0.3% - 0.7%",
     },
     {
-      icon: "	https://tbe.io/_next/static/media/ecosystem-product-feature.a1edea07.svg",
+      icon: "https://i.postimg.cc/gjSg3P9q/icons-3-01.png",
       title: "Standard Plan",
       text: "This plan price starts from 1000$ and this plan's daily ROI bonus is 0.3% - 0.7%",
     },
     {
-      icon: "https://tbe.io/_next/static/media/portfolioIconThree.62e19c3e.svg",
+      icon: "https://i.postimg.cc/0yLHtxzV/icons-1-01.png",
       title: "Tzra Pro Plan",
       text: "This plan price starts from 5000$ and this plan's daily ROI bonus is 0.3% - 0.7%",
     },
     {
-      icon: "	https://tbe.io/_next/static/media/portfolioIconFour.75ea5767.svg",
+      icon: "https://i.postimg.cc/1XhmPb7B/icons-01.png",
       title: "Tzra Pro Max Plan",
       text: "This plan price starts from 10000$ and this plan's daily ROI bonus is 0.3% - 0.7%",
     },
     {
-      icon: "	https://tbe.io/_next/static/media/users-feature-icon.9058d04d.svg",
+      icon: "https://i.postimg.cc/Znc1gQGC/icons-5-01.png",
       title: "Tzra Infinity Plan",
       text: "This plan price starts from 20000$ and this plan's daily ROI bonus is 0.3% - 0.7%",
     },
@@ -164,7 +164,7 @@ const Setvice = () => {
             <iframe
               className="w-full h-[400px] rounded-xl"
               height="315"
-              src="https://www.youtube.com/embed/ENrjn-lD1e8?si=Bc0mIGkCrHkGZYwm"
+              src="https://www.youtube.com/embed/aL8NSdQZEl4?si=kVOSjnfELZWzLfSx" 
               title="YouTube video player"
               frameBorder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"

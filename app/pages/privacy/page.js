@@ -13,7 +13,7 @@ const page = () => {
             <div className='flex flex-col gap-8'>
                 <div className='my-8'>
                     <p className='text-[16px]'>
-                        This Privacy & Cookie Policy outlines how TIZARA collects, uses, shares, and protects information obtained from visitors to our website <a href='www.tizara.co' className='text-blue-400'>www.tizara.co</a> and related services. By accessing or using our Site, you agree to the terms outlined in this policy.
+                        This Privacy & Cookie Policy outlines how TIZARA collects, uses, shares, and protects information <br /> obtained from visitors to our website <a href='www.tizara.co' className='text-blue-400'>www.tizara.co</a> and related services. By accessing or using our Site, you agree to the terms outlined in this policy.
                     </p>
                 </div>
 

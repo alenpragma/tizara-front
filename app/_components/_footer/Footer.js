@@ -68,7 +68,7 @@ const Footer = () => {
               </li>
               <li className="custom-li">
                 <Link
-                  href="pages/terms-and-conditions"
+                  href="/pages/terms-and-conditions"
                   className="duration-300 hover:text-primary-green"
                 >
                   Terms and Conditions

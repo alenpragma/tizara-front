@@ -24,7 +24,7 @@ const PlanSlider = () => {
             name: "Starter Plan",
             icon: <FaRocket />,
             profitRate: "Daily 1.5%",
-            investment: "$150",
+            investment: "$100",
             capitalBack: true,
             returnType: "Period",
             numberOfPeriods: 2,
@@ -36,7 +36,7 @@ const PlanSlider = () => {
             name: "Standard Plan",
             icon: <FaMoneyBill />,
             profitRate: "Weekly 1.2%",
-            investment: "$100-$500",
+            investment: "$500",
             capitalBack: false,
             returnType: "Period",
             numberOfPeriods: 3,
@@ -48,7 +48,7 @@ const PlanSlider = () => {
             name: "Advanced Plan",
             icon: <FaClock />,
             profitRate: "Hour $11",
-            investment: "$200",
+            investment: "$1000",
             capitalBack: false,
             returnType: "Period",
             numberOfPeriods: 2,
@@ -60,7 +60,7 @@ const PlanSlider = () => {
             name: "Pro Plan",
             icon: <FaDollarSign />,
             profitRate: "Daily $10",
-            investment: "$250",
+            investment: "$5000",
             capitalBack: true,
             returnType: "Period",
             numberOfPeriods: 5,
@@ -72,7 +72,7 @@ const PlanSlider = () => {
             name: "Tzra Pro Max",
             icon: <BsBoxes />,
             profitRate: "0.3% - 0.7%",
-            investment: "$1000",
+            investment: "$10000",
             capitalBack: true,
             returnType: "Period",
             numberOfPeriods: 5,
@@ -134,13 +134,13 @@ const PlanSlider = () => {
                             <SwiperSlide>
                             <div className="w-full flex flex-col relative gap-y-5  rounded-lg border p-3 group overflow-hidden">
                                 <img src="https://tbe.io/_next/static/media/joinersEclipseGreen.6c493366.png" className="absolute bottom-0 left-0 w-full h-auto" alt="" />
-                                <div className="flex justify-end absolute w-full top-3 right-3 ">
+                                {/* <div className="flex justify-end absolute w-full top-3 right-3 ">
                                     {item.bestSchema && (
                                         <div className="bg-primary-green p-2 rounded-lg text-center">
                                             {item.bestSchema}
                                         </div>
                                     )}
-                                </div>
+                                </div> */}
                                 <div className="mt-[80px] text-[40px]">{item.icon}</div>
                                 <div className="text-[25px] font-semibold">
                                     {item.name}
@@ -159,19 +159,21 @@ const PlanSlider = () => {
                                 {/* ------------ */}
                                 <div className="flex items-center justify-between">
                                     <div className="">Capital Back</div>
-                                    <div className="">{item.capitalBack ? "Yes" : "No"}</div>
+                                    <div className="">No</div>
                                 </div>
                                 {/* ------------------ */}
                                 {/* ------------ */}
                                 <div className="flex items-center justify-between">
                                     <div className="">Return Type</div>
-                                    <div className="">{item.returnType}</div>
+                                    <div className="">
+                                        Life time
+                                    </div>
                                 </div>
                                 {/* ------------------ */}
                                 {/* ------------ */}
                                 <div className="flex items-center justify-between">
                                     <div className="">Number of Period</div>
-                                    <div className="">{`${item.numberOfPeriods} Times`}</div>
+                                    <div className="">Unlimited</div>
                                 </div>
                                 {/* ------------------ */}
                                 {/* ------------ */}

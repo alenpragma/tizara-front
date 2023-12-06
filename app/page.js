@@ -3,85 +3,30 @@ import React from "react";
 import { CiLocationArrow1 } from "react-icons/ci";
 import { FaCog, FaTrophy, FaUsers, FaShieldAlt } from 'react-icons/fa';
 import OurPartnerSlider from "./_components/_sliders/_our-pertner-slider/OurPartnerSlider";
-import {
-  FaRocket,
-  FaMoneyBill,
-  FaClock,
-  FaCalendar,
-  FaDollarSign,
-} from "react-icons/fa";
 
-let pricingPlan = [
-  {
-    name: "Starter Plan",
-    icon: <FaRocket />,
-    profitRate: "Daily 1.5%",
-    investment: "$150",
-    capitalBack: true,
-    returnType: "Period",
-    numberOfPeriods: 2,
-    profitWithdrawal: "Anytime",
-    cancelWithinMinutes: 59,
-    noProfitHolidays: true,
-  },
-  {
-    name: "Standard Plan",
-    icon: <FaMoneyBill />,
-    profitRate: "Weekly 1.2%",
-    investment: "$100-$500",
-    capitalBack: false,
-    returnType: "Period",
-    numberOfPeriods: 3,
-    profitWithdrawal: "Anytime",
-    cancelWithinMinutes: 40,
-    holidays: ["Monday"],
-    bestSchema: "Best Schema",
-  },
-  {
-    name: "Advanced Plan",
-    icon: <FaClock />,
-    profitRate: "Hour $11",
-    investment: "$200",
-    capitalBack: false,
-    returnType: "Period",
-    numberOfPeriods: 2,
-    profitWithdrawal: "Anytime",
-    cancelWithinMinutes: 59,
-    noProfitHolidays: true,
-  },
-  {
-    name: "Pro Plan",
-    icon: <FaDollarSign />,
-    profitRate: "Daily $10",
-    investment: "$250",
-    capitalBack: true,
-    returnType: "Period",
-    numberOfPeriods: 5,
-    profitWithdrawal: "Anytime",
-    cancelWithinMinutes: 50,
-    noProfitHolidays: true,
-  },
-];
+import PlanSlider from "./_components/_sliders/_plan-slider/PlanSlider";
+
+
 
 let featuresData = [
   {
-    "name": "Automatic and Manual Gateway",
-    "description": "Etaque molestias enim quo harum ex, inventore eos corporis temporibus sint reiciendis nemo similique consequuntur eum.",
+    "name": "Cutting-Edge Technology",
+    "description": "Leveraging the latest technological advancements, we employ robust security measures and innovative investment strategies, ensuring your investments are safeguarded and optimized for growth.",
     "icon": <FaCog />
   },
   {
-    "name": "Ranking Badge System",
-    "description": "Etaque molestias enim quo harum ex, inventore eos corporis temporibus sint reiciendis nemo similique consequuntur eum.",
+    "name": "Diverse Investment Portfolios",
+    "description": "We curate diverse investment portfolios tailored to suit varying risk appetites and investment goals. Whether you're a newcomer or an experienced investor, we have the right mix of assets to help you achieve your financial objectives.",
     "icon": <FaTrophy />
   },
   {
-    "name": "Referral Level System",
-    "description": "Etaque molestias enim quo harum ex, inventore eos corporis temporibus sint reiciendis nemo similique consequuntur eum.",
+    "name": "Customer-Centric Approach",
+    "description": "Our clients are our priority. We offer personalized support, ensuring that you receive tailored guidance and assistance every step of the way. Your success is our success.",
     "icon": <FaUsers />
   },
   {
-    "name": "Secure Application",
-    "description": "Etaque molestias enim quo harum ex, inventore eos corporis temporibus sint reiciendis nemo similique consequuntur eum.",
+    "name": "Transparency and Trust",
+    "description": "Transparency is at the core of our operations. We believe in keeping our investors informed and empowered. From real-time performance updates to comprehensive reports, you'll have full visibility into your investments.",
     "icon": <FaShieldAlt />
   }
 ];
@@ -394,88 +339,7 @@ const page = () => {
               The plans we offer is specifically made for you.
             </h3>
             <div className="mt-10 flex flex-col gap-y-3 md:flex-row md:gap-y-0 md:gap-x-3 justify-between ">
-              {pricingPlan.map((item) => (
-                <div className="w-full flex flex-col relative gap-y-5 md:w-[32%] lg:w-[24%] rounded-lg border p-3 group overflow-hidden">
-                  <img src="https://tbe.io/_next/static/media/joinersEclipseGreen.6c493366.png" className="absolute bottom-0 left-0 w-full h-auto" alt="" />
-                  <div className="flex justify-end absolute w-full top-3 right-3 ">
-                    {item.bestSchema && (
-                      <div className="bg-primary-green p-2 rounded-lg text-center">
-                        {item.bestSchema}
-                      </div>
-                    )}
-                  </div>
-                  <div className="mt-[80px] text-[40px]">{item.icon}</div>
-                  <div className="text-[25px] font-semibold">
-                    {item.name}
-                    <p className="text-primary-green text-[12px]">
-                      {item.profitRate}
-                    </p>
-                  </div>
-                  {/* ------------ */}
-                  <div className="flex items-center justify-between">
-                    <div className="">Investment</div>
-                    <div className="rounded-lg p-1 bg-primary-green">
-                      {item.investment}
-                    </div>
-                  </div>
-                  {/* ------------------ */}
-                  {/* ------------ */}
-                  <div className="flex items-center justify-between">
-                    <div className="">Capital Back</div>
-                    <div className="">{item.capitalBack ? "Yes" : "No"}</div>
-                  </div>
-                  {/* ------------------ */}
-                  {/* ------------ */}
-                  <div className="flex items-center justify-between">
-                    <div className="">Return Type</div>
-                    <div className="">{item.returnType}</div>
-                  </div>
-                  {/* ------------------ */}
-                  {/* ------------ */}
-                  <div className="flex items-center justify-between">
-                    <div className="">Number of Period</div>
-                    <div className="">{`${item.numberOfPeriods} Times`}</div>
-                  </div>
-                  {/* ------------------ */}
-                  {/* ------------ */}
-                  <div className="flex items-center justify-between">
-                    <div className="">Profit Withdraw</div>
-                    <div className="">{`${item.profitWithdrawal}`}</div>
-                  </div>
-                  {/* ------------------ */}
-                  {/* ------------ */}
-                  <div className="flex items-center justify-between">
-                    <div className="">Cancel</div>
-                    <div className="">
-                      {`Within ${item.cancelWithinMinutes} Minute`}
-                    </div>
-                  </div>
-                  {/* ------------------ */}
-                  <div className="text-[12px] text-primary-green">
-                    {item.noProfitHolidays
-                      ? "*No Profit Holidays"
-                      : "*Monday are Holidays"}
-                  </div>
-                  {/* button start */}
-                  <div className="py-[40px] group-hover:translate-y-[-15px] duration-300">
-                    <div
-                   
-                      className="bg-border-black p-[2px] relative flex justify-center items-center overflow-hidden "
-                    >
-                      <div className="button-animation absolute w-[300px] h-[20px] z-1 opacity-70 bg-primary-green  shadow-2xl  "></div>
-
-                      <Link href="https://client.tizara.co/login" className="relative z-3 w-full">
-                        <div
-                          className={`py-[15px] px-[23px] w-full text-center  bg-primary-bg duration-300 hover:text-primary-green  `}
-                        >
-                          Invest Now
-                        </div>
-                      </Link>
-                    </div>
-                  </div>
-                  {/* button end */}
-                </div>
-              ))}
+             <PlanSlider />
             </div>
           </div>
           {/* investment plan end */}

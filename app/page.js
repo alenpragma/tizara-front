@@ -55,20 +55,15 @@ const page = () => {
             {/* left col start */}
             <div className="flex justify-between w-full md:w-[20%]  md:flex-col md:gap-y-10">
               <div className="flex flex-col justify-center items-center md:justify-start md:items-start">
-                <h2 className=" text-[35px] lg:text-[45px] mb-0">2M+</h2>
+                <h2 className=" text-[35px] lg:text-[45px] mb-0">24/7</h2>
                 <p className="text-grey font-semibold mt-[-5px]">
-                  People
-                  <br className="hidden md:flex" /> Impacted
+                  Supported
                 </p>
               </div>
 
               <div className="bg-grey h-[2px] opacity-20 w-full hidden md:flex"></div>
               <div className="flex flex-col justify-center items-center md:justify-start md:items-start">
-                <h2 className=" text-[35px] lg:text-[45px] mb-0">100+</h2>
-                <p className="text-grey font-semibold mt-[-5px]">
-                  Countries
-                  <br className="hidden md:flex" /> Reached
-                </p>
+                <h2 className=" text-[35px] lg:text-[40px] mb-0">Daily Bonus</h2>
               </div>
             </div>
             {/* left col end */}
@@ -95,22 +90,18 @@ const page = () => {
             <div className="flex justify-between w-full md:w-[20%]  md:flex-col md:gap-y-10">
               <div className="flex flex-col justify-center items-center md:justify-start md:items-end">
                 <div className="flex flex-col items-center md:items-start">
-                  <h2 className=" text-[35px] lg:text-[45px] mb-0">6k+</h2>
-                  <p className="text-grey font-semibold mt-[-5px] text-center">
-                    New Users
-                    <br className="hidden md:flex" /> Yesterday
-                  </p>
+                <h2 className=" text-[35px] lg:text-[45px] mb-0">24/78</h2>
+                <p className="text-grey font-semibold mt-[-5px]">
+                Customer Support
+                </p>
                 </div>
               </div>
 
               <div className="bg-grey h-[2px] opacity-20 w-full hidden md:flex"></div>
               <div className="flex flex-col justify-center items-center md:justify-start md:items-end">
                 <div className="flex flex-col items-center md:items-start">
-                  <h2 className=" text-[35px] lg:text-[45px] mb-0">519k+</h2>
-                  <p className="text-grey font-semibold mt-[-5px] text-center">
-                    Community
-                    <br className="hidden md:flex" /> Members
-                  </p>
+                  <h2 className=" text-[35px] lg:text-[40px] mb-0">Growing Community</h2>
+                 
                 </div>
               </div>
             </div>

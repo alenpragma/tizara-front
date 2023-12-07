@@ -3,7 +3,7 @@ import React from 'react';
 const page = () => {
     return (
         <div className="max-w-container px-[10px] mx-auto py-[100px]">
-            <h2 className='text-6xl my-5 font-semibold'>
+            <h2 className='text-6xl my-10 font-semibold'>
                 TIZARA Terms and Conditions
             </h2>
             <div className='flex flex-col gap-8'>

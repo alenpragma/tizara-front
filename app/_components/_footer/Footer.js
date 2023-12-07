@@ -84,7 +84,7 @@ const Footer = () => {
               </li>
               <li className="custom-li">
                 <Link
-                  href="pages/commission-policy"
+                  href="/pages/commission-policy"
                   className="duration-300 hover:text-primary-green"
                 >
                   Commission Policy
@@ -102,7 +102,7 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <div className="max-w-container mx-auto px-[10px] py-[50px] flex justify-between items-center">
+      <div className="max-w-container mx-auto px-[10px] py-[40px] flex justify-between items-center">
         <p className="text-grey">Tizara. All Rights Reserved. © 2023</p>
         <div className="flex items-center gap-x-3">
           <p className="text-grey">Follow on socials:</p>

@@ -16,14 +16,12 @@ import "swiper/css/pagination";
 
 const OurPartnerSlider = () => {
   let imageData = [
-    "https://tbe.io/_next/static/media/freedomNationLogo.67f06b2c.png",
-    "https://tbe.io/_next/static/media/lFi-logo.cc7c8358.png",
-    "https://tbe.io/_next/static/media/bidLogo.c18c17a6.png",
-    "https://tbe.io/_next/static/media/bidLogo.c18c17a6.png",
-    "https://tbe.io/_next/static/media/freedomNationLogo.67f06b2c.png",
-    "https://tbe.io/_next/static/media/lFi-logo.cc7c8358.png",
-    "https://tbe.io/_next/static/media/bidLogo.c18c17a6.png",
-    "https://tbe.io/_next/static/media/bidLogo.c18c17a6.png",
+    "https://i.postimg.cc/pT7qDnh1/AI-icon.png",
+    "https://i.postimg.cc/FH351Nq4/Robotix-icon.png",
+    "https://i.postimg.cc/QMN3zv4Z/Blockchain-icon.png",
+    "https://i.postimg.cc/P52cCJ40/Atomation-icon.png",
+    "https://i.postimg.cc/26f4mFWY/Matrix-icon.png",
+    "https://i.postimg.cc/pT7qDnh1/AI-icon.png",
   ];
   return (
     <div>

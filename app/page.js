@@ -344,7 +344,7 @@ const page = () => {
             </h3>
             <div className="flex flex-col gap-y-4 md:flex-row md:gap-y-0 md:gap-x-3 justify-between items-center mt-[70px]">
               <div className=" w-full md:w-[49%]">
-                <img src="https://i.postimg.cc/Njd1gSL0/office-buildings-glass-green.webp" className="w-full h-auto rounded-lg" alt="" />
+                <img src="https://i.postimg.cc/3RnZNdmW/why-choose-us.jpg" className="w-full h-auto rounded-lg" alt="" />
                 </div> 
                 <div className=" w-full md:w-[49%] flex flex-col gap-y-5">
                   {

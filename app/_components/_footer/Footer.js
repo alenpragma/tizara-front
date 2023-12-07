@@ -3,8 +3,13 @@ import React from "react";
 import { FaFacebookSquare } from "react-icons/fa";
 import { BiLogoInstagramAlt } from "react-icons/bi";
 import { BsTelegram } from "react-icons/bs";
+// import pdf from "../../../public/assets/tizara-pdf.pdf"
 
 const Footer = () => {
+  const handlePdfViwer = () => {
+    const pdfUrl = "https://www.docdroid.net/i7ic1PU/tizara-pdf-pdf";
+    window.open(pdfUrl, '_blank');
+  };
   return (
     <>
       <div className="max-w-container mx-auto px-[10px] mt-[100px] flex flex-col md:flex-row md:justify-between gap-y-10 md:gap-x-4 border-grey border-t border-b py-[100px]">
@@ -74,13 +79,8 @@ const Footer = () => {
                   Terms and Conditions
                 </Link>
               </li>
-              <li className="custom-li">
-                <Link
-                  href="pages/tax-declaration"
-                  className="duration-300 hover:text-primary-green"
-                >
-                  Tax Declaration
-                </Link>
+              <li className="custom-li duration-300 hover:text-primary-green cursor-pointer" onClick={handlePdfViwer}>
+                Whitepaper
               </li>
               <li className="custom-li">
                 <Link
@@ -88,14 +88,6 @@ const Footer = () => {
                   className="duration-300 hover:text-primary-green"
                 >
                   Commission Policy
-                </Link>
-              </li>
-              <li className="custom-li">
-                <Link
-                  href="pages/distributor-agreement"
-                  className="duration-300 hover:text-primary-green"
-                >
-                  Distributor Agreement
                 </Link>
               </li>
               <li className="custom-li">

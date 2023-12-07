@@ -97,7 +97,7 @@ const Navbar = () => {
                           : ""
                       } `}
                     >
-                      Register
+                      Login
                     </div>
                   </Link>
                 </div>

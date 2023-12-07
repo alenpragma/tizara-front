@@ -220,7 +220,7 @@ const page = () => {
           {/* our partner slider start */}
           <div className="!mt-10 max-w-container px-[10px] mx-auto mb-10">
             <h3 className="text-[25px] md:text-[40px] gradiant-text mb-5">
-              Our Partners
+              Our Technology
             </h3>
             <OurPartnerSlider />
           </div>

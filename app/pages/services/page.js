@@ -70,7 +70,7 @@ const Setvice = () => {
         <p className="font-semibold gradiant-text w-full md:w-[30%] mt-5 text-[18px]">
           Join TIZARA on The Journey to Financial Success. We empower you to navigate the world of investments confidently.
         </p>
-        <Link href="/">
+        <Link href="https://client.tizara.co/login">
           <div className="py-[10px] px-[20px] border rounded-lg text-center inline-block mt-5 duration-500 hover:bg-primary-green ">
             Login Now
           </div>

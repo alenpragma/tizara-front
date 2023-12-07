@@ -64,9 +64,9 @@ const About = () => {
               in navigating the dynamic landscape of digital assets and
               blockchain technology.
             </p>
-            <Link href="/">
+            <Link href="https://client.tizara.co/login">
               <div className="py-[10px] px-[20px] border rounded-lg text-center inline-block mt-5 duration-500 hover:bg-primary-green ">
-                Register Now
+                Login
               </div>
             </Link>
           </div>

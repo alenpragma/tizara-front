@@ -23,7 +23,7 @@ const PlanSlider = () => {
         {
             name: "Starter Plan",
             icon: <FaRocket />,
-            profitRate: "Daily 1.5%",
+            profitRate: "Daily ROI 0.3% - 0.7%",
             investment: "$100",
             capitalBack: true,
             returnType: "Period",
@@ -33,9 +33,9 @@ const PlanSlider = () => {
             noProfitHolidays: true,
         },
         {
-            name: "Standard Plan",
+            name: "Basic Plan",
             icon: <FaMoneyBill />,
-            profitRate: "Weekly 1.2%",
+            profitRate: "Daily ROI 0.3% - 0.7%",
             investment: "$500",
             capitalBack: false,
             returnType: "Period",
@@ -45,9 +45,9 @@ const PlanSlider = () => {
             bestSchema: "Best Schema",
         },
         {
-            name: "Advanced Plan",
+            name: "Standard Plan",
             icon: <FaClock />,
-            profitRate: "Hour $11",
+            profitRate: "Daily ROI 0.3% - 0.7%",
             investment: "$1000",
             capitalBack: false,
             returnType: "Period",
@@ -57,9 +57,9 @@ const PlanSlider = () => {
             noProfitHolidays: true,
         },
         {
-            name: "Pro Plan",
+            name: "Tzra Pro Plan",
             icon: <FaDollarSign />,
-            profitRate: "Daily $10",
+            profitRate: "Daily ROI 0.3% - 0.7%",
             investment: "$5000",
             capitalBack: true,
             returnType: "Period",
@@ -71,7 +71,7 @@ const PlanSlider = () => {
         {
             name: "Tzra Pro Max",
             icon: <BsBoxes />,
-            profitRate: "0.3% - 0.7%",
+            profitRate: "Daily ROI 0.3% - 0.7%",
             investment: "$10000",
             capitalBack: true,
             returnType: "Period",
@@ -83,7 +83,7 @@ const PlanSlider = () => {
         {
             name: "Tzra Infinity",
             icon: <PiInfinityBold />,
-            profitRate: "0.3% - 0.7%",
+            profitRate: "Daily ROI 0.3% - 0.7%",
             investment: "$20000 ",
             capitalBack: true,
             returnType: "Period",

@@ -8,7 +8,7 @@ const About = () => {
     {
       icon: "https://i.postimg.cc/R0vNXJbh/OUR-MISSION-01.png",
       title: "OUR MISSION",
-      text: "Our mission is to pioneer innovative financial solutions within the cryptocurrency landscape.We aim to empower investors by providing comprehensive insights, cryptocurrency, capital stoke market, fostering education and delivering tailored investment strategies.In the future, we will build our own cryptocurrency, blockchain wallet, exchanger, etc.We strive to facilitate seamless access to crypto investments while prioritizing transparency, security and sustained growth for our client's portfolios.",
+      text: "Our mission is to pioneer innovative financial solutions within the cryptocurrency landscape.We aim to empower investors by providing comprehensive insights, cryptocurrency, capital stoke market, fostering education and delivering tailored investment strategies. Subsequent Step:-  Public Blockchain Network, Decentralize Exchange, AI Incredible TIZARA Coin, World Wide Fiat Payment Gateway, TIZARA Node and Antimining, TIZARA Asset Management Fund (TAMF)",
     },
     {
       icon: "https://i.postimg.cc/YCmMwrT7/OUR-VISION-01.png",
@@ -104,12 +104,31 @@ const About = () => {
         {/* dive in text start */}
         <div className="max-w-container px-[10px] mx-auto ">
           <h2 className="text-[25px] md:text-[35px] text-center font-bold gradiant-text mb-10">
-          JOIN US
+            JOIN US
           </h2>
         </div>
         {/* dive in text end */}
         {/* dive slider start */}
-        <DiveSlider />
+        {/* <DiveSlider /> */}
+        <div className="max-w-container mx-auto px-[10px] pb-[80px] ">
+          <div className="w-full flex flex-col-reverse md:flex-row justify-between items-center pb-[60px] md:pb-0">
+            <div className="w-full md:w-[48%] ">
+              <p>
+                Whether you're a seasoned investor seeking to diversify your portfolio or someone curious about the potential of cryptocurrencies, TIZARA welcomes you to join us on this exciting journey. Together, let's explore the endless possibilities that the world of digital assets has to offer.
+              </p>
+              <p className="mt-5 font-bold">
+                Get in touch with us today to discover how we can help you navigate the ever-evolving crypto landscape and achieve your financial goals.
+              </p>
+            </div>
+            <div className="w-full md:w-[48%] flex justify-center items-center">
+              <img
+                src="https://i.postimg.cc/T1WfHFh5/TIZARA-01.png"
+                className="w-[75%] h-auto"
+                alt=""
+              />
+            </div>
+          </div>
+        </div>
         {/* dive slider end */}
         {/* our client slider start */}
         <OurClientSlider />

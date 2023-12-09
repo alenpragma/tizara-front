@@ -100,8 +100,7 @@ const page = () => {
               <div className="bg-grey h-[2px] opacity-20 w-full hidden md:flex"></div>
               <div className="flex flex-col justify-center items-center md:justify-start md:items-end">
                 <div className="flex flex-col items-center md:items-start">
-                  <h2 className=" text-[35px] lg:text-[40px] mb-0">Growing Community</h2>
-                 
+                  <h2 className=" text-[35px] lg:text-[40px] mb-0">Growing</h2>
                 </div>
               </div>
             </div>

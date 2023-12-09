@@ -131,7 +131,7 @@ const About = () => {
         </div>
         {/* dive slider end */}
         {/* our client slider start */}
-        <OurClientSlider />
+        {/* <OurClientSlider /> */}
         {/* our client slider end */}
       </div>
     </>

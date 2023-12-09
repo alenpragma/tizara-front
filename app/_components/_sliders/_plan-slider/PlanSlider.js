@@ -95,7 +95,7 @@ const PlanSlider = () => {
     ];
     return (
         <>
-            <div className="max-w-container px-[10px] mx-auto ">
+            <div className="px-[10px] mx-auto max-w-container">
                 {/* slider start */}
                 <div className="mt-[30px] mb-[100px]">
                     <Swiper
@@ -132,89 +132,91 @@ const PlanSlider = () => {
                     >
                         {pricingPlan.map((item) => (
                             <SwiperSlide>
-                            <div className="w-full flex flex-col relative gap-y-5  rounded-lg border p-3 group overflow-hidden">
-                                <img src="https://tbe.io/_next/static/media/joinersEclipseGreen.6c493366.png" className="absolute bottom-0 left-0 w-full h-auto" alt="" />
-                                {/* <div className="flex justify-end absolute w-full top-3 right-3 ">
+                                <div className="w-full">
+                                    <div className="w-full flex flex-col relative gap-y-5 rounded-lg border p-3 group overflow-hidden">
+                                        <img src="https://tbe.io/_next/static/media/joinersEclipseGreen.6c493366.png" className="absolute bottom-0 left-0 w-full h-auto" alt="" />
+                                        {/* <div className="flex justify-end absolute w-full top-3 right-3 ">
                                     {item.bestSchema && (
                                         <div className="bg-primary-green p-2 rounded-lg text-center">
                                             {item.bestSchema}
                                         </div>
                                     )}
                                 </div> */}
-                                <div className="mt-[80px] text-[40px]">{item.icon}</div>
-                                <div className="text-[25px] font-semibold">
-                                    {item.name}
-                                    <p className="text-primary-green text-[12px]">
-                                        {item.profitRate}
-                                    </p>
-                                </div>
-                                {/* ------------ */}
-                                <div className="flex items-center justify-between">
-                                    <div className="">Investment</div>
-                                    <div className="rounded-lg p-1 bg-primary-green">
-                                        {item.investment}
-                                    </div>
-                                </div>
-                                {/* ------------------ */}
-                                {/* ------------ */}
-                                <div className="flex items-center justify-between">
-                                    <div className="">Capital Back</div>
-                                    <div className="">No</div>
-                                </div>
-                                {/* ------------------ */}
-                                {/* ------------ */}
-                                <div className="flex items-center justify-between">
-                                    <div className="">Return Type</div>
-                                    <div className="">
-                                        Life time
-                                    </div>
-                                </div>
-                                {/* ------------------ */}
-                                {/* ------------ */}
-                                <div className="flex items-center justify-between">
-                                    <div className="">Number of Period</div>
-                                    <div className="">Unlimited</div>
-                                </div>
-                                {/* ------------------ */}
-                                {/* ------------ */}
-                                <div className="flex items-center justify-between">
-                                    <div className="">Profit Withdraw</div>
-                                    <div className="">{`${item.profitWithdrawal}`}</div>
-                                </div>
-                                {/* ------------------ */}
-                                {/* ------------ */}
-                                <div className="flex items-center justify-between">
-                                    <div className="">Cancel</div>
-                                    <div className="">
-                                        {/* {`Within ${item.cancelWithinMinutes} Minute`} */}
-                                        No
-                                    </div>
-                                </div>
-                                {/* ------------------ */}
-                                <div className="text-[12px] text-primary-green">
-                                    {item.noProfitHolidays
-                                        ? "*No Profit Holidays"
-                                        : "*Monday are Holidays"}
-                                </div>
-                                {/* button start */}
-                                <div className="py-[40px] group-hover:translate-y-[-15px] duration-300">
-                                    <div
-
-                                        className="bg-border-black p-[2px] relative flex justify-center items-center overflow-hidden "
-                                    >
-                                        <div className="button-animation absolute w-[300px] h-[20px] z-1 opacity-70 bg-primary-green  shadow-2xl  "></div>
-
-                                        <Link href="https://client.tizara.co/login" className="relative z-3 w-full">
-                                            <div
-                                                className={`py-[15px] px-[23px] w-full text-center  bg-primary-bg duration-300 hover:text-primary-green  `}
-                                            >
-                                                Invest Now
+                                        <div className="mt-[80px] text-[40px]">{item.icon}</div>
+                                        <div className="text-[25px] font-semibold">
+                                            {item.name}
+                                            <p className="text-primary-green text-[12px]">
+                                                {item.profitRate}
+                                            </p>
+                                        </div>
+                                        {/* ------------ */}
+                                        <div className="flex items-center justify-between">
+                                            <div className="">Investment</div>
+                                            <div className="rounded-lg p-1 bg-primary-green">
+                                                {item.investment}
                                             </div>
-                                        </Link>
+                                        </div>
+                                        {/* ------------------ */}
+                                        {/* ------------ */}
+                                        <div className="flex items-center justify-between">
+                                            <div className="">Capital Back</div>
+                                            <div className="">No</div>
+                                        </div>
+                                        {/* ------------------ */}
+                                        {/* ------------ */}
+                                        <div className="flex items-center justify-between">
+                                            <div className="">Return Type</div>
+                                            <div className="">
+                                                Life time
+                                            </div>
+                                        </div>
+                                        {/* ------------------ */}
+                                        {/* ------------ */}
+                                        <div className="flex items-center justify-between">
+                                            <div className="">Number of Period</div>
+                                            <div className="">Unlimited</div>
+                                        </div>
+                                        {/* ------------------ */}
+                                        {/* ------------ */}
+                                        <div className="flex items-center justify-between">
+                                            <div className="">Profit Withdraw</div>
+                                            <div className="">{`${item.profitWithdrawal}`}</div>
+                                        </div>
+                                        {/* ------------------ */}
+                                        {/* ------------ */}
+                                        <div className="flex items-center justify-between">
+                                            <div className="">Cancel</div>
+                                            <div className="">
+                                                {/* {`Within ${item.cancelWithinMinutes} Minute`} */}
+                                                No
+                                            </div>
+                                        </div>
+                                        {/* ------------------ */}
+                                        <div className="text-[12px] text-primary-green">
+                                            {item.noProfitHolidays
+                                                ? "*No Profit Holidays"
+                                                : "*Monday are Holidays"}
+                                        </div>
+                                        {/* button start */}
+                                        <div className="py-[40px] group-hover:translate-y-[-15px] duration-300">
+                                            <div
+
+                                                className="bg-border-black p-[2px] relative flex justify-center items-center overflow-hidden "
+                                            >
+                                                <div className="button-animation absolute w-[300px] h-[20px] z-1 opacity-70 bg-primary-green  shadow-2xl  "></div>
+
+                                                <Link href="https://client.tizara.co/login" className="relative z-3 w-full">
+                                                    <div
+                                                        className={`py-[15px] px-[23px] w-full text-center  bg-primary-bg duration-300 hover:text-primary-green  `}
+                                                    >
+                                                        Invest Now
+                                                    </div>
+                                                </Link>
+                                            </div>
+                                        </div>
+                                        {/* button end */}
                                     </div>
                                 </div>
-                                {/* button end */}
-                            </div>
                             </SwiperSlide>
                         ))}
                     </Swiper>

@@ -104,7 +104,7 @@ const OurClientSlider = () => {
           >
             {clientData.map((item) => (
               <SwiperSlide>
-                <div className="w-full p-4 relative   flex justify-center items-center  rounded-xl">
+                <div className="w-full p-4 relative flex justify-center items-center rounded-xl">
                     <div className="!bg-black">
                   <div
                     style={{
@@ -131,13 +131,11 @@ const OurClientSlider = () => {
                           alt=""
                         />
                       </div>
-                      
                     </div>
                     <p className="mt-5">
                         {item.text}
                     </p>
                   </div>
-                        
                     </div>
                   <img src="https://tbe.io/_next/static/media/blurReviewImage.e738c786.png" className="w-full rounded-lg absolute bottom-0 left-0"  alt="" />
                 </div>

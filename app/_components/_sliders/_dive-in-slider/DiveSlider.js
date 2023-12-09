@@ -37,7 +37,7 @@ const DiveSlider = () => {
         </SwiperSlide>
         <SwiperSlide>
           <div className="w-full flex flex-col-reverse md:flex-row justify-between items-center pb-[60px] md:pb-0">
-            <div className="w-full md:w-[48%] ">
+            <div className="w-full md:w-[48%]">
               <p>
                 TBE takes blockchain technology's inherent virtues of security
                 and transparency to the next level. Our premium products stand

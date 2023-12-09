@@ -7,33 +7,33 @@ const Setvice = () => {
   let keyFeatureData = [
     {
       icon: "https://i.postimg.cc/HskKn6G9/icons-4-01.png",
-      title: "Start-Up Plan",
-      text: "This plan price starts from 100$ and this plan's daily ROI bonus is 0.3% - 0.7%",
+      title: "Start-Up",
+      text: "This plan price starts from 100$ - 499$ and this plan's daily ROI bonus is 0.30%",
+    },
+    {
+      icon: "https://i.postimg.cc/B68pb3sZ/icons-2-01-1.png",
+      title: "Basic",
+      text: "This plan price starts from 500$ - 999$ and this plan's daily ROI bonus is 0.35%",
     },
     {
       icon: "https://i.postimg.cc/gjSg3P9q/icons-3-01.png",
-      title: "Basic Plan",
-      text: "This plan price starts from 500$ and this plan's daily ROI bonus is 0.3% - 0.7%",
-    },
-    {
-      icon: "https://i.postimg.cc/gjSg3P9q/icons-3-01.png",
-      title: "Standard Plan",
-      text: "This plan price starts from 1000$ and this plan's daily ROI bonus is 0.3% - 0.7%",
+      title: "Standard",
+      text: "This plan price starts from 1000$ - 4999$ and this plan's daily ROI bonus is 0.40%",
     },
     {
       icon: "https://i.postimg.cc/0yLHtxzV/icons-1-01.png",
-      title: "Tzra Pro Plan",
-      text: "This plan price starts from 5000$ and this plan's daily ROI bonus is 0.3% - 0.7%",
+      title: "Tzra Pro",
+      text: "This plan price starts from 5000$ - 9999$ and this plan's daily ROI bonus is 0.45%",
     },
     {
       icon: "https://i.postimg.cc/1XhmPb7B/icons-01.png",
-      title: "Tzra Pro Max Plan",
-      text: "This plan price starts from 10000$ and this plan's daily ROI bonus is 0.3% - 0.7%",
+      title: "Tzra Pro Max",
+      text: "This plan price starts from 10000$ - 19999$ and this plan's daily ROI bonus is 0.50%",
     },
     {
       icon: "https://i.postimg.cc/Znc1gQGC/icons-5-01.png",
-      title: "Tzra Infinity Plan",
-      text: "This plan price starts from 20000$ and this plan's daily ROI bonus is 0.3% - 0.7%",
+      title: "Tzra Infinity",
+      text: "This plan price starts from 20000$ - unlimited and this plan's daily ROI bonus is 0.55%",
     },
   ];
   useEffect(() => {

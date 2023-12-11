@@ -8,7 +8,7 @@ const About = () => {
     {
       icon: "https://i.postimg.cc/R0vNXJbh/OUR-MISSION-01.png",
       title: "OUR MISSION",
-      text: "Our mission is to pioneer innovative financial solutions within the cryptocurrency landscape.We aim to empower investors by providing comprehensive insights, cryptocurrency, capital stoke market, fostering education and delivering tailored investment strategies. Subsequent Step:-  Public Blockchain Network, Decentralize Exchange, AI Incredible TIZARA Coin, World Wide Fiat Payment Gateway, TIZARA Node and Antimining, TIZARA Asset Management Fund (TAMF)",
+      text: "Our mission is to pioneer innovative financial solutions within the cryptocurrency landscape.We aim to empower investors by providing comprehensive insights, cryptocurrency, capital stock market, fostering education and delivering tailored investment strategies. Subsequent Step:-  Public Blockchain Network, Decentralize Exchange, AI Incredible TIZARA Coin, World Wide Fiat Payment Gateway, TIZARA Node and Antimining, TIZARA Asset Management Fund (TAMF)",
     },
     {
       icon: "https://i.postimg.cc/YCmMwrT7/OUR-VISION-01.png",

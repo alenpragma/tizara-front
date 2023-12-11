@@ -57,7 +57,7 @@ const PlanSlider = () => {
             noProfitHolidays: true,
         },
         {
-            name: "Tzra Pro",
+            name: "Tizara Pro",
             icon: <FaDollarSign />,
             profitRate: "Daily ROI 0.45%",
             investment: "$5000 - $9999",
@@ -69,7 +69,7 @@ const PlanSlider = () => {
             noProfitHolidays: true,
         },
         {
-            name: "Tzra Pro Max",
+            name: "Tizara Pro Max",
             icon: <BsBoxes />,
             profitRate: "Daily ROI 0.50%",
             investment: "$10000 - 19999",
@@ -81,7 +81,7 @@ const PlanSlider = () => {
             noProfitHolidays: true,
         },
         {
-            name: "Tzra Infinity",
+            name: "Tizara Infinity",
             icon: <PiInfinityBold />,
             profitRate: "Daily ROI 0.55%",
             investment: "$20000 - unlimited",

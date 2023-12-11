@@ -1,9 +1,7 @@
 import Link from "next/link";
 import React from "react";
-import { FaFacebookSquare } from "react-icons/fa";
-import { BiLogoInstagramAlt } from "react-icons/bi";
 import { BsTelegram } from "react-icons/bs";
-// import pdf from "../../../public/assets/tizara-pdf.pdf"
+import { FaXTwitter } from "react-icons/fa6";
 
 const Footer = () => {
   const handlePdfViwer = () => {
@@ -107,19 +105,13 @@ const Footer = () => {
         <div className="flex items-center gap-x-3">
           <p className="text-grey">Follow on socials:</p>
           <Link
-            href=""
+            href="https://twitter.com/" target="_blank"
             className="text-[25px] duration-300 hover:text-primary-green"
           >
-            <FaFacebookSquare />
+            <FaXTwitter />
           </Link>
           <Link
-            href=""
-            className="text-[25px] duration-300 hover:text-primary-green"
-          >
-            <BiLogoInstagramAlt />
-          </Link>
-          <Link
-            href=""
+            href="https://web.telegram.org/" target="_blank"
             className="text-[25px] duration-300 hover:text-primary-green"
           >
             <BsTelegram />

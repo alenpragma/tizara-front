@@ -5,6 +5,7 @@ import { FaCog, FaTrophy, FaUsers, FaShieldAlt } from 'react-icons/fa';
 import OurPartnerSlider from "./_components/_sliders/_our-pertner-slider/OurPartnerSlider";
 
 import PlanSlider from "./_components/_sliders/_plan-slider/PlanSlider";
+import Faq from "./_components/_faq/Faq";
 
 
 
@@ -364,6 +365,12 @@ const page = () => {
             </div>
           </div>
           {/* why choose end */}
+
+          {/* Faq Start */}
+          <div className="!mt-[80px] max-w-container px-[10px] mx-auto mb-10">
+          <Faq />
+          </div>
+          {/* Faq End */}
         </div>
       </div>
     </>

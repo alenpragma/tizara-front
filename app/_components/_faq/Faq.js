@@ -64,7 +64,7 @@ const Faq = () => {
         <div className="py-[50px] md:py-[80px] " id="faq">
             <div className="mt-10 flex flex-col gap-y-3 md:flex-row md:gap-x-3">
                 <div className="w-full md:w-[49%]">
-                    <img src="https://i.postimg.cc/SQ2mnZVL/faq.jpg" alt="" className="rounded"/>
+                    <img src="https://i.postimg.cc/SK6JHVpk/FAQ-Image-01.png" alt="" className="rounded"/>
                 </div>
                 <div className="w-full md:w-[49%] flex flex-col justify-center">
                     <h4 className="text-[18px] md:text-[23px] mb-10 text-main-black font-bold">
@@ -74,7 +74,7 @@ const Faq = () => {
                         <div
                             key={index}
                             className="border rounded-md mb-4 overflow-hidden text-black"
-                            style={{ backgroundColor: "white" }}
+                            style={{ backgroundColor: "#07F9C8" }}
                         >
                             <div
                                 className="flex items-center justify-between p-4 cursor-pointer"

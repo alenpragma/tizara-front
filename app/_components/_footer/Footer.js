@@ -59,7 +59,7 @@ const Footer = () => {
                   href="/pages/faq"
                   className="duration-300 hover:text-primary-green"
                 >
-                  Faq
+                  FAQ
                 </Link>
               </li>
             </ul>

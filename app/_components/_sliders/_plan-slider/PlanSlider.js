@@ -167,14 +167,14 @@ const PlanSlider = () => {
                                     <div className="flex items-center justify-between">
                                         <div className="">Return Type</div>
                                         <div className="">
-                                            Life time
+                                            100%
                                         </div>
                                     </div>
                                     {/* ------------------ */}
                                     {/* ------------ */}
                                     <div className="flex items-center justify-between">
                                         <div className="">Number of Period</div>
-                                        <div className="">Unlimited</div>
+                                        <div className="">Until 2X</div>
                                     </div>
                                     {/* ------------------ */}
                                     {/* ------------ */}

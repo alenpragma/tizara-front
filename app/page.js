@@ -5,7 +5,6 @@ import { FaCog, FaTrophy, FaUsers, FaShieldAlt } from 'react-icons/fa';
 import OurPartnerSlider from "./_components/_sliders/_our-pertner-slider/OurPartnerSlider";
 
 import PlanSlider from "./_components/_sliders/_plan-slider/PlanSlider";
-import Faq from "./_components/_faq/Faq";
 
 
 
@@ -91,10 +90,10 @@ const page = () => {
             <div className="flex justify-between w-full md:w-[20%]  md:flex-col md:gap-y-10">
               <div className="flex flex-col justify-center items-center md:justify-start md:items-end">
                 <div className="flex flex-col items-center md:items-start">
-                <h2 className=" text-[35px] lg:text-[45px] mb-0">24/7</h2>
-                <p className="text-grey font-semibold mt-[-5px]">
-                Customer Support
-                </p>
+                  <h2 className=" text-[35px] lg:text-[45px] mb-0">24/7</h2>
+                  <p className="text-grey font-semibold mt-[-5px]">
+                    Customer Support
+                  </p>
                 </div>
               </div>
 
@@ -330,14 +329,14 @@ const page = () => {
               The plans we offer is specifically made for you.
             </h3>
             <div className="mt-10 flex flex-col gap-y-3 md:flex-row md:gap-y-0 md:gap-x-3 justify-between ">
-             <PlanSlider />
+              <PlanSlider />
             </div>
           </div>
           {/* investment plan end */}
           {/* why choose us start */}
           <div className="!mt-[80px] max-w-container px-[10px] mx-auto mb-10">
-          <p className="gradiant-text text-[18px] md:text-[25px] mt-5">
-          WHY CHOOSE US
+            <p className="gradiant-text text-[18px] md:text-[25px] mt-5">
+              WHY CHOOSE US
             </p>
             <h3 className="text-[25px] md:text-[40px] gradiant-text">
               Explore Why You Will Choose Us.
@@ -345,32 +344,26 @@ const page = () => {
             <div className="flex flex-col gap-y-4 md:flex-row md:gap-y-0 md:gap-x-3 justify-between items-center mt-[70px]">
               <div className=" w-full md:w-[49%]">
                 <img src="https://i.postimg.cc/3RnZNdmW/why-choose-us.jpg" className="w-full h-auto rounded-lg" alt="" />
-                </div> 
-                <div className=" w-full md:w-[49%] flex flex-col gap-y-5">
-                  {
-                    featuresData.map((item)=>(
+              </div>
+              <div className=" w-full md:w-[49%] flex flex-col gap-y-5">
+                {
+                  featuresData.map((item) => (
 
-                  <div className="flex gap-x-2 items-center">
-                    <div className="w-[80px] h-[80px] bg-primary-green text-[30px] rounded-lg flex justify-center items-center">
-                      {item.icon}
+                    <div className="flex gap-x-2 items-center">
+                      <div className="w-[80px] h-[80px] bg-primary-green text-[30px] rounded-lg flex justify-center items-center">
+                        {item.icon}
+                      </div>
+                      <div className="">
+                        <p className="font-semibold">{item.name}</p>
+                        <p className="text-[14px] mt-2">{item.description}</p>
+                      </div>
                     </div>
-                    <div className="">
-                      <p className="font-semibold">{item.name}</p>
-                      <p className="text-[14px] mt-2">{item.description}</p>
-                    </div>
-                  </div>
-                    ))
-                  }
-                </div>
+                  ))
+                }
+              </div>
             </div>
           </div>
           {/* why choose end */}
-
-          {/* Faq Start */}
-          <div className="!mt-[80px] max-w-container px-[10px] mx-auto mb-10">
-          <Faq />
-          </div>
-          {/* Faq End */}
         </div>
       </div>
     </>

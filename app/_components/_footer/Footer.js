@@ -32,7 +32,7 @@ const Footer = () => {
             <ul className="mt-5 flex flex-col gap-y-4">
               <li>
                 <Link
-                  href="pages/contact"
+                  href="/pages/contact"
                   className="duration-300 hover:text-primary-green"
                 >
                   Contact
@@ -52,6 +52,14 @@ const Footer = () => {
                   className="duration-300 hover:text-primary-green"
                 >
                   Services
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/pages/faq"
+                  className="duration-300 hover:text-primary-green"
+                >
+                  Faq
                 </Link>
               </li>
             </ul>

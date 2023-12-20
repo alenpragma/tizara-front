@@ -23,7 +23,7 @@ const PlanSlider = () => {
         {
             name: "Startup",
             icon: <FaRocket />,
-            profitRate: "Daily ROI 0.30%",
+            profitRate: "0.32% - 0.33%",
             investment: "$100 - $499",
             capitalBack: true,
             returnType: "Period",
@@ -35,7 +35,7 @@ const PlanSlider = () => {
         {
             name: "Basic",
             icon: <FaMoneyBill />,
-            profitRate: "Daily ROI 0.35%",
+            profitRate: "0.34% - 0.35%",
             investment: "$500 - $999",
             capitalBack: false,
             returnType: "Period",
@@ -48,7 +48,7 @@ const PlanSlider = () => {
         {
             name: "Standard",
             icon: <FaClock />,
-            profitRate: "Daily ROI 0.40%",
+            profitRate: "0.36% - 0.37%",
             investment: "$1000 - $4999",
             capitalBack: false,
             returnType: "Period",
@@ -60,7 +60,7 @@ const PlanSlider = () => {
         {
             name: "Tzra Pro",
             icon: <FaDollarSign />,
-            profitRate: "Daily ROI 0.45%",
+            profitRate: "0.38% - 0.39%",
             investment: "$5000 - $9999",
             capitalBack: true,
             returnType: "Period",
@@ -72,7 +72,7 @@ const PlanSlider = () => {
         {
             name: "Tzra Pro Max",
             icon: <BsBoxes />,
-            profitRate: "Daily ROI 0.50%",
+            profitRate: "0.40% - 0.41%",
             investment: "$10000 - 19999",
             capitalBack: true,
             returnType: "Period",
@@ -84,7 +84,7 @@ const PlanSlider = () => {
         {
             name: "Tzra Infinity",
             icon: <PiInfinityBold />,
-            profitRate: "Daily ROI 0.55%",
+            profitRate: "0.42% - 0.43%",
             investment: "$20000 - unlimited",
             capitalBack: true,
             returnType: "Period",
@@ -146,7 +146,7 @@ const PlanSlider = () => {
                                     <div className="text-[25px] font-semibold">
                                         {item.name}
                                         <p className="text-primary-green text-[12px]">
-                                            {item.profitRate}
+                                        Daily ROI {item.profitRate}
                                         </p>
                                     </div>
                                     {/* ------------ */}

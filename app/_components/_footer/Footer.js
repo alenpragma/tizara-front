@@ -5,8 +5,8 @@ import { FaXTwitter } from "react-icons/fa6";
 
 const Footer = () => {
   const handlePdfViwer = () => {
-    const pdfUrl = "https://www.docdroid.net/i7ic1PU/tizara-pdf-pdf";
-    window.open(pdfUrl, '_blank');
+    const pdfUrl = "https://www.docfly.com/files/nuwhj6kt8kd-29a9fe8c";
+    window.open(pdfUrl, "_blank");
   };
   return (
     <>
@@ -19,9 +19,9 @@ const Footer = () => {
           />
           <p>
             Tizara is a financial investment company. We are dedicated to
-            providing bespoke financial solutions that empower our clients
-            to achieve their investment goals with a strong foundation built
-            on expertise, integrity, and client-centricity.
+            providing bespoke financial solutions that empower our clients to
+            achieve their investment goals with a strong foundation built on
+            expertise, integrity, and client-centricity.
           </p>
         </div>
         <div className="w-full md:w-[35%] flex flex-col md:flex-row gap-y-10 md:gap-x-3">
@@ -85,8 +85,12 @@ const Footer = () => {
                   Terms and Conditions
                 </Link>
               </li>
-              <li className="custom-li duration-300 hover:text-primary-green cursor-pointer" onClick={handlePdfViwer}>
-                Whitepaper
+              <li className="custom-li duration-300 hover:text-primary-green cursor-pointer">
+                <Link
+                  href={"https://pdfhost.io/v/sQZqG4Zhd_PowerPoint_Presentation"}
+                >
+                  Whitepaper
+                </Link>
               </li>
               <li className="custom-li">
                 <Link
@@ -113,20 +117,21 @@ const Footer = () => {
         <div className="flex items-center gap-x-3">
           <p className="text-grey">Follow on socials:</p>
           <Link
-            href="https://twitter.com/" target="_blank"
+            href="https://twitter.com/"
+            target="_blank"
             className="text-[25px] duration-300 hover:text-primary-green"
           >
             <FaXTwitter />
           </Link>
           <Link
-            href="https://web.telegram.org/" target="_blank"
+            href="https://web.telegram.org/"
+            target="_blank"
             className="text-[25px] duration-300 hover:text-primary-green"
           >
             <BsTelegram />
           </Link>
         </div>
       </div>
-
     </>
   );
 };

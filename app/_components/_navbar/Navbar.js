@@ -109,7 +109,7 @@ const Navbar = () => {
                           : ""
                         } `}
                     >
-                      Registrater
+                      Registration
                     </div>
                   </Link>
                 </div>

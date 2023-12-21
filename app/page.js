@@ -236,7 +236,7 @@ const page = () => {
               />
 
               <h3 className="text-[20px] md:text-[30px] mt-10">
-                Join <span className="!text-primary-green">3.1K+</span>
+                Join <span className="!text-primary-green">2.5K+</span>
                 New Members Today and Start Journey with Blockchain Investment
               </h3>
             </div>

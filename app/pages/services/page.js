@@ -174,10 +174,9 @@ const Setvice = () => {
         </div>
         {/* whyus end */}
         {/* client slider */}
-        <div className="mt-[60px] md:mt-[100px]">
-
+        {/* <div className="mt-[60px] md:mt-[100px]">
           <OurClientSlider />
-        </div>
+        </div> */}
       </div>
     </>
   );

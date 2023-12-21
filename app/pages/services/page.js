@@ -13,27 +13,27 @@ const Setvice = () => {
     {
       icon: "https://i.postimg.cc/B68pb3sZ/icons-2-01-1.png",
       title: "Basic",
-      text: "This plan price starts from 500$ - 999$ and this plan's daily ROI bonus is 0.32% - 0.33%",
+      text: "This plan price starts from 500$ - 999$ and this plan's daily ROI bonus is 0.34% - 0.35%",
     },
     {
       icon: "https://i.postimg.cc/gjSg3P9q/icons-3-01.png",
       title: "Standard",
-      text: "This plan price starts from 1000$ - 4999$ and this plan's daily ROI bonus is 0.32% - 0.33%",
+      text: "This plan price starts from 1000$ - 4999$ and this plan's daily ROI bonus is 0.36% - 0.37%",
     },
     {
       icon: "https://i.postimg.cc/0yLHtxzV/icons-1-01.png",
       title: "Tzra Pro",
-      text: "This plan price starts from 5000$ - 9999$ and this plan's daily ROI bonus is 0.32% - 0.33%",
+      text: "This plan price starts from 5000$ - 9999$ and this plan's daily ROI bonus is 0.38% - 0.39%",
     },
     {
       icon: "https://i.postimg.cc/1XhmPb7B/icons-01.png",
       title: "Tzra Pro Max",
-      text: "This plan price starts from 10000$ - 19999$ and this plan's daily ROI bonus is 0.32% - 0.33%",
+      text: "This plan price starts from 10000$ - 19999$ and this plan's daily ROI bonus is 0.40% - 0.41%",
     },
     {
       icon: "https://i.postimg.cc/Znc1gQGC/icons-5-01.png",
       title: "Tzra Infinity",
-      text: "This plan price starts from 20000$ - unlimited and this plan's daily ROI bonus is 0.32% - 0.33%",
+      text: "This plan price starts from 20000$ - unlimited and this plan's daily ROI bonus is 0.42% - 0.43%",
     },
   ];
   useEffect(() => {

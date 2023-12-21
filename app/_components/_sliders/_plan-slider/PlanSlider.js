@@ -27,7 +27,7 @@ const PlanSlider = () => {
             investment: "$100 - $499",
             capitalBack: true,
             returnType: "Period",
-            numberOfPeriods: 2,
+            numberOfPeriods: 600,
             profitWithdrawal: "Anytime",
             cancelWithinMinutes: 59,
             noProfitHolidays: true,
@@ -39,7 +39,7 @@ const PlanSlider = () => {
             investment: "$500 - $999",
             capitalBack: false,
             returnType: "Period",
-            numberOfPeriods: 3,
+            numberOfPeriods: 600,
             profitWithdrawal: "Anytime",
             cancelWithinMinutes: 40,
             noProfitHolidays: true,
@@ -52,7 +52,7 @@ const PlanSlider = () => {
             investment: "$1000 - $4999",
             capitalBack: false,
             returnType: "Period",
-            numberOfPeriods: 2,
+            numberOfPeriods: 600,
             profitWithdrawal: "Anytime",
             cancelWithinMinutes: 59,
             noProfitHolidays: true,
@@ -64,7 +64,7 @@ const PlanSlider = () => {
             investment: "$5000 - $9999",
             capitalBack: true,
             returnType: "Period",
-            numberOfPeriods: 5,
+            numberOfPeriods: 600,
             profitWithdrawal: "Anytime",
             cancelWithinMinutes: 50,
             noProfitHolidays: true,
@@ -76,7 +76,7 @@ const PlanSlider = () => {
             investment: "$10000 - 19999",
             capitalBack: true,
             returnType: "Period",
-            numberOfPeriods: 5,
+            numberOfPeriods: 600,
             profitWithdrawal: "Anytime",
             cancelWithinMinutes: 50,
             noProfitHolidays: true,
@@ -88,7 +88,7 @@ const PlanSlider = () => {
             investment: "$20000 - unlimited",
             capitalBack: true,
             returnType: "Period",
-            numberOfPeriods: 5,
+            numberOfPeriods: 600,
             profitWithdrawal: "Anytime",
             cancelWithinMinutes: 50,
             noProfitHolidays: true,
@@ -167,14 +167,14 @@ const PlanSlider = () => {
                                     <div className="flex items-center justify-between">
                                         <div className="">Return Type</div>
                                         <div className="">
-                                            100%
+                                            {item.returnType}
                                         </div>
                                     </div>
                                     {/* ------------------ */}
                                     {/* ------------ */}
                                     <div className="flex items-center justify-between">
                                         <div className="">Number of Period</div>
-                                        <div className="">Until 2X</div>
+                                        <div className="">{`${item.numberOfPeriods} Times`}</div>
                                     </div>
                                     {/* ------------------ */}
                                     {/* ------------ */}

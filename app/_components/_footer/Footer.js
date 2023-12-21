@@ -8,6 +8,7 @@ const Footer = () => {
     const pdfUrl = "https://www.docfly.com/files/nuwhj6kt8kd-29a9fe8c";
     window.open(pdfUrl, "_blank");
   };
+  const emailAddress = 'info@tizara.com';
   return (
     <>
       <div className="max-w-container mx-auto px-[10px] mt-[100px] flex flex-col md:flex-row md:justify-between gap-y-10 md:gap-x-4 border-grey border-t border-b py-[100px]">
@@ -18,11 +19,11 @@ const Footer = () => {
             alt=""
           />
           <p>
-            Tizara is a financial investment company. We are dedicated to
-            providing bespoke financial solutions that empower our clients to
-            achieve their investment goals with a strong foundation built on
-            expertise, integrity, and client-centricity.
+            Tizara is a financial investment company. We are dedicated to providing bespoke financial solutions that empower our clients to achieve their investment goals with a strong foundation built on expertise, integrity, and client-centricity. With a commitment to expertise, integrity, and a client-focused approach, we empower individuals to secure their financial future through customized strategies and comprehensive guidance.
           </p>
+          <Link href={`mailto:${emailAddress}`} className="text-primary-green">
+          info@tizara.com
+          </Link>
         </div>
         <div className="w-full md:w-[35%] flex flex-col md:flex-row gap-y-10 md:gap-x-3">
           <div className="w-full md:w-[50%]">

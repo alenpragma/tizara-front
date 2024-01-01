@@ -21,11 +21,12 @@ const Footer = () => {
           <p>
             Tizara is a financial investment company. We are dedicated to providing bespoke financial solutions that empower our clients to achieve their investment goals with a strong foundation built on expertise, integrity, and client-centricity. With a commitment to expertise, integrity, and a client-focused approach, we empower individuals to secure their financial future through customized strategies and comprehensive guidance.
           </p>
-          <div>
+          <div className="flex gap-2">
             <span className="font-semibold">Support : </span>
-          <Link href={`mailto:${emailAddress}`} className="text-primary-green">
+            <p>4288 Hyman Causeway, Valletta, Malta</p>
+          {/* <Link href={`mailto:${emailAddress}`} className="text-primary-green">
           info@tizara.com
-          </Link>
+          </Link> */}
           </div>
         </div>
         <div className="w-full md:w-[35%] flex flex-col md:flex-row gap-y-10 md:gap-x-3">

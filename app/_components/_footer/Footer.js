@@ -2,6 +2,8 @@ import Link from "next/link";
 import React from "react";
 import { BsTelegram } from "react-icons/bs";
 import { FaXTwitter } from "react-icons/fa6";
+// import pdf from "../../../public/TIZARA-Whitepaper.pdf"
+// 
 
 const Footer = () => {
   const handlePdfViwer = () => {
@@ -23,7 +25,7 @@ const Footer = () => {
           </p>
           <div className="flex gap-2">
             <span className="font-semibold">4288 Hyman Causeway, Valletta, Malta</span>
-          {/* <Link href={`mailto:${emailAddress}`} className="text-primary-green">
+            {/* <Link href={`mailto:${emailAddress}`} className="text-primary-green">
           info@tizara.com
           </Link> */}
           </div>
@@ -141,3 +143,26 @@ const Footer = () => {
 };
 
 export default Footer;
+
+
+
+
+
+
+
+
+
+// import { Worker, Viewer } from '@react-pdf-viewer/react-pdf';
+// import '@react-pdf-viewer/core/lib/styles/index.css';
+
+// const PdfViewer = ({ pdfUrl }) => {
+//   return (
+//     <div style={{ width: '100%', height: '500px' }}>
+//       <Worker workerUrl={`https://unpkg.com/pdfjs-dist@${2.10.377}/build/pdf.worker.min.js`}>
+//         <Viewer fileUrl={pdfUrl} />
+//       </Worker>
+//     </div>
+//   );
+// };
+
+// export default PdfViewer;

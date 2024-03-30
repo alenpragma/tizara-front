@@ -100,7 +100,7 @@ const PlanSlider = () => {
                 {/* slider start */}
                 <div className="mt-[30px] mb-[100px]">
                     <Swiper
-                        slidesPerView={1}
+                        
                         autoplay={{
                             delay: 2500,
                             disableOnInteraction: false,

@@ -1,9 +1,7 @@
 import Link from "next/link";
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { BsTelegram } from "react-icons/bs";
 import { FaXTwitter } from "react-icons/fa6";
-// import pdf from "../../../public/TIZARA-Whitepaper.pdf"
-// 
 
 const Footer = () => {
   const handlePdfViwer = () => {
@@ -11,6 +9,7 @@ const Footer = () => {
     window.open(pdfUrl, "_blank");
   };
   const emailAddress = 'info@tizara.com';
+
   return (
     <>
       <div className="max-w-container mx-auto px-[10px] mt-[100px] flex flex-col md:flex-row md:justify-between gap-y-10 md:gap-x-4 border-grey border-t border-b py-[100px]">
@@ -93,7 +92,7 @@ const Footer = () => {
               </li>
               <li className="custom-li duration-300 hover:text-primary-green cursor-pointer">
                 <Link
-                  href={"https://pdfhost.io/v/sQZqG4Zhd_PowerPoint_Presentation"}
+                  href={"https://www.tizara.co/TIZARA-Whitepaper.pdf"} target="_blank"
                 >
                   Whitepaper
                 </Link>
@@ -112,6 +111,14 @@ const Footer = () => {
                   className="duration-300 hover:text-primary-green"
                 >
                   Risk Disclosure
+                </Link>
+              </li>
+              <li className="custom-li">
+                <Link
+                  href="pages/risk-disclosure"
+                  className="duration-300 hover:text-primary-green"
+                >
+                  Tokenomics 
                 </Link>
               </li>
             </ul>

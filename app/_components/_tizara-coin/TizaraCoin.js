@@ -20,12 +20,12 @@ const TizaraCoin = () => {
 
     return (
         <div className="max-w-container px-[10px] mx-auto " >
-            <div>
+            <div className='w-3/4 mx-auto'>
                 <h3 className="text-[25px] md:text-[40px] gradiant-text text-center">
-                    Transparency and Trust
+                    Tokenomics
                 </h3>
                 <p className="text-[14px] md:text-[24px] gradiant-text text-center">
-                    Transparency is at the core of our operations. We believe
+                    Tizara Coin stands at the forefront of innovation, offering users unparalleled opportunities for financial empowerment and growth within the dynamic landscape of decentralized finance
                 </p>
             </div>
             <div className="grid grid-cols-12 mt-14">

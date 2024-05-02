@@ -63,7 +63,7 @@ const TizaraCoin = () => {
                 <div className=" border-l border-[#07f9c873]  col-span-6 font-semibold text-2xl">
                     <div className="w-[99%] h-[98%] m-auto rounded shadow-2xl bg-[#07f9c81c] py-10 flex flex-col items-center justify-center ">
                         <h3>Contract Address</h3>
-                        <p className="text-[16px] cursor-pointer hover:text-slate-400 duration-300" onClick={copyToClipboard}>0x0a30F4BC6D57bA1Be0f1ac117de97E6D4889420d</p>
+                        <p className="md:text-[16px] text-[10px] cursor-pointer hover:text-slate-400 duration-300" onClick={copyToClipboard}>0x0a30F4BC6D57bA1Be0f1ac117de97E6D4889420d</p>
                     </div>
                 </div>
             </div>

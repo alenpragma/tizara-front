@@ -22,7 +22,7 @@ const TizaraCoin = () => {
         <div className="max-w-container px-[10px] mx-auto " >
             <div className='w-3/4 mx-auto'>
                 <h3 className="text-[25px] md:text-[40px] gradiant-text text-center">
-                    Tokenomics
+                Tizara Tokenomics
                 </h3>
                 <p className="text-[14px] md:text-[24px] gradiant-text text-center">
                     Tizara Coin stands at the forefront of innovation, offering users unparalleled opportunities for financial empowerment and growth within the dynamic landscape of decentralized finance
@@ -31,37 +31,37 @@ const TizaraCoin = () => {
             <div className="grid grid-cols-12 mt-14">
 
                 <div className=" border-b border-[#07f9c873]  col-span-6 font-semibold">
-                    <div className="w-[99%] h-[98%] m-auto rounded shadow-2xl bg-[#07f9c81c] py-10 flex flex-col pl-5 justify-center ">
+                    <div className="w-[99%] h-[98%] m-auto rounded shadow-2xl bg-[#07f9c81c] py-10 flex flex-col pl-5 justify-center  duration-300 hover:translate-y-[-4%]">
                         <h3 className='text-[20px]'>Token Name</h3>
                         <p className='text-[16px]'>Tizara Coin</p>
                     </div>
                 </div>
                 <div className=" border-b border-l border-[#07f9c873]  col-span-6 font-semibold">
-                    <div className="w-[99%] h-[98%] m-auto rounded shadow-2xl bg-[#07f9c81c] py-10 flex flex-col  pl-5 justify-center ">
+                    <div className="w-[99%] h-[98%] m-auto rounded shadow-2xl bg-[#07f9c81c] py-10 flex flex-col  pl-5 justify-center  duration-300 hover:translate-y-[-4%]">
                         <h3 className='text-[20px]'>Token Symbol</h3>
                         <p className='text-[16px]'>TIZARA</p>
                     </div>
                 </div>
-                <div className=" border-b border-[#07f9c873]  col-span-6 font-semibold">
-                    <div className="w-[99%] h-[98%] m-auto rounded shadow-2xl bg-[#07f9c81c] py-10 flex flex-col  pl-5 justify-center ">
+                <div className=" border-b border-[#07f9c873]  col-span-6 font-semibold overflow-hidden">
+                    <div className="w-[99%] h-[98%] m-auto rounded shadow-2xl bg-[#07f9c81c] py-10 flex flex-col  pl-5 justify-center  duration-300 hover:translate-y-[-4%]">
                         <h3 className='text-[20px]'>Blockchain</h3>
                         <p className='text-[16px]'>Binance</p>
                     </div>
                 </div>
-                <div className=" border-b border-l border-[#07f9c873]  col-span-6 font-semibold">
-                    <div className="w-[99%] h-[98%] m-auto rounded shadow-2xl bg-[#07f9c81c] py-10 flex flex-col  pl-5 justify-center ">
+                <div className=" border-b border-l border-[#07f9c873]  col-span-6 font-semibold overflow-hidden">
+                    <div className="w-[99%] h-[98%] m-auto rounded shadow-2xl bg-[#07f9c81c] py-10 flex flex-col  pl-5 justify-center  duration-300 hover:translate-y-[-4%]">
                         <h3 className='text-[20px]'>Token Type</h3>
                         <p className='text-[16px]'>Utility (BEP-20)</p>
                     </div>
                 </div>
                 <div className="  border-[#07f9c873]  col-span-6 font-semibold">
-                    <div className="w-[99%] h-[98%] m-auto rounded shadow-2xl bg-[#07f9c81c] py-10 flex flex-col  pl-5 justify-center ">
+                    <div className="w-[99%] h-[98%] m-auto rounded shadow-2xl bg-[#07f9c81c] py-10 flex flex-col  pl-5 justify-center  duration-300 hover:translate-y-[4%]">
                         <h3 className='text-[20px]'>Total Supply </h3>
                         <p className='text-[16px]'>15,000,000,000 TIZARA</p>
                     </div>
                 </div>
                 <div className=" border-l border-[#07f9c873]  col-span-6 font-semibold">
-                    <div className="w-[99%] h-[98%] m-auto rounded shadow-2xl bg-[#07f9c81c] py-10 flex flex-col  pl-5 justify-center ">
+                    <div className="w-[99%] h-[98%] m-auto rounded shadow-2xl bg-[#07f9c81c] py-10 flex flex-col  pl-5 justify-center  duration-300 hover:translate-y-[4%]">
                         <h3 className='text-[20px]'>Contract Address</h3>
                         <p className="md:text-[16px] text-[10px]  duration-300 flex items-center gap-3" >0x0a30F4BC6D57bA1Be0f1ac117de97E6D4889420d <span>
                             <svg xmlns="http://www.w3.org/2000/svg"

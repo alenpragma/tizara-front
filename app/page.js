@@ -5,6 +5,7 @@ import { FaCog, FaTrophy, FaUsers, FaShieldAlt } from 'react-icons/fa';
 import OurPartnerSlider from "./_components/_sliders/_our-pertner-slider/OurPartnerSlider";
 
 import PlanSlider from "./_components/_sliders/_plan-slider/PlanSlider";
+import TizaraCoin from "./_components/_tizara-coin/TizaraCoin";
 
 
 
@@ -363,7 +364,9 @@ const page = () => {
               </div>
             </div>
           </div>
-          {/* why choose end */}
+          {/* why choose us end */}
+
+        
         </div>
       </div>
     </>

@@ -4,6 +4,7 @@ import Navbar from "./_components/_navbar/Navbar";
 
 import { Montserrat } from "next/font/google";
 import RegistrationNow from "./_components/_registration-now/RegistrationNow";
+import TizaraCoin from "./_components/_tizara-coin/TizaraCoin";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -26,8 +27,8 @@ export default function RootLayout({ children }) {
       <body className={`bg-primary-bg ${montserrat.className} text-white`}>
         <Navbar />
         {children}
+        <TizaraCoin />
         <RegistrationNow/>
-    
       </body>
     </html>
   );

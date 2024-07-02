@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: http://tizara.co/
+
+# Sitemaps
+Sitemap: http://tizara.co/sitemap.xml

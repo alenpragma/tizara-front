@@ -2,13 +2,17 @@ import Link from "next/link";
 import React, { useEffect, useState } from "react";
 import { BsTelegram } from "react-icons/bs";
 import { FaXTwitter } from "react-icons/fa6";
+import { MdEmail } from "react-icons/md";
+import { FaTelegram } from "react-icons/fa6";
 
 const Footer = () => {
   const handlePdfViwer = () => {
     const pdfUrl = "https://www.docfly.com/files/nuwhj6kt8kd-29a9fe8c";
     window.open(pdfUrl, "_blank");
   };
-  const emailAddress = 'info@tizara.com';
+  const handleTelegramClick = () => {
+    window.location.href = `https://t.me/https://t.me/TizaraTDAM`;
+  };
 
   return (
     <>
@@ -20,13 +24,36 @@ const Footer = () => {
             alt=""
           />
           <p>
-            Tizara is a financial investment company. We are dedicated to providing bespoke financial solutions that empower our clients to achieve their investment goals with a strong foundation built on expertise, integrity, and client-centricity. With a commitment to expertise, integrity, and a client-focused approach, we empower individuals to secure their financial future through customized strategies and comprehensive guidance.
+            Tizara is a financial investment company. We are dedicated to
+            providing bespoke financial solutions that empower our clients to
+            achieve their investment goals with a strong foundation built on
+            expertise, integrity, and client-centricity. With a commitment to
+            expertise, integrity, and a client-focused approach, we empower
+            individuals to secure their financial future through customized
+            strategies and comprehensive guidance.
           </p>
-          <div className="flex gap-2">
-            <span className="font-semibold">4288 Hyman Causeway, Valletta, Malta</span>
+          <div className="flex flex-col gap-2 leading-4">
+            <span className="font-semibold">Address :</span>
+            <span className="font-semibold">
+              {" "}
+              4288 Hyman Causeway, Valletta, Malta
+            </span>
             {/* <Link href={`mailto:${emailAddress}`} className="text-primary-green">
           info@tizara.com
           </Link> */}
+            <p className="flex items-center gap-4 ">
+              <span><MdEmail className="text-[20px]"/></span>{" "}
+              <span>
+                <a href={`mailto:support@tizara.co`} className="hover:text-primary-green">support@tizara.co</a>
+              </span>
+            </p>
+            <p className="flex items-center gap-4">
+              <span><FaTelegram className="text-[20px]"/></span>{" "}
+              <span onClick={handleTelegramClick} className="cursor-pointer hover:text-primary-green">
+               Tizara Telegram
+              </span>
+            </p>
+      
           </div>
         </div>
         <div className="w-full md:w-[35%] flex flex-col md:flex-row gap-y-10 md:gap-x-3">
@@ -92,7 +119,8 @@ const Footer = () => {
               </li>
               <li className="custom-li duration-300 hover:text-primary-green cursor-pointer">
                 <Link
-                  href={"https://www.tizara.co/TIZARA-Whitepaper.pdf"} target="_blank"
+                  href={"https://www.tizara.co/TIZARA-Whitepaper.pdf"}
+                  target="_blank"
                 >
                   Whitepaper
                 </Link>
@@ -118,7 +146,7 @@ const Footer = () => {
                   href="pages/risk-disclosure"
                   className="duration-300 hover:text-primary-green"
                 >
-                  Tokenomics 
+                  Tokenomics
                 </Link>
               </li>
             </ul>
@@ -150,26 +178,3 @@ const Footer = () => {
 };
 
 export default Footer;
-
-
-
-
-
-
-
-
-
-// import { Worker, Viewer } from '@react-pdf-viewer/react-pdf';
-// import '@react-pdf-viewer/core/lib/styles/index.css';
-
-// const PdfViewer = ({ pdfUrl }) => {
-//   return (
-//     <div style={{ width: '100%', height: '500px' }}>
-//       <Worker workerUrl={`https://unpkg.com/pdfjs-dist@${2.10.377}/build/pdf.worker.min.js`}>
-//         <Viewer fileUrl={pdfUrl} />
-//       </Worker>
-//     </div>
-//   );
-// };
-
-// export default PdfViewer;
